@@ -1,0 +1,12 @@
+.assembly-dialog{width:min(650px,92vw);max-height:90vh;padding:24px;border:1px solid #bccbd4;border-radius:8px;color:#263c49;background:#fff;overflow:auto;font:14px 'Microsoft YaHei',sans-serif}
+.assembly-dialog::backdrop{background:#23374580}
+.assembly-dialog header{position:static;display:flex;justify-content:space-between;align-items:center;padding:0;border:0;background:transparent}
+.assembly-dialog h2{font-size:20px;margin:0}.assembly-dialog h3{font-size:15px;margin:0 0 14px}
+.assembly-dialog section{padding:20px 0;border-top:1px solid #d6e0e6}.assembly-dialog label{display:grid;gap:7px;margin-bottom:12px}
+.assembly-dialog input{width:100%;box-sizing:border-box;padding:9px;border:1px solid #bbcbd6;border-radius:4px;font:inherit}
+.assembly-dialog p{color:#647480;line-height:1.7}.assembly-fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.assembly-actions{display:flex;gap:8px;flex-wrap:wrap}.assembly-dialog footer{padding-top:12px;color:#526c7d;line-height:1.6}
+.mechanical-actions{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.assembly-name{font-weight:600;color:#226b92}
+.height-adjustments{display:flex;gap:6px;margin-top:7px}.height-adjustments button{flex:1;font-size:12px}
+.catalog-empty{padding:18px;color:#647480;line-height:1.7}.connection-cancel[hidden]{display:none!important}
+@media(max-width:600px){.assembly-fields{grid-template-columns:1fr}.assembly-dialog{padding:16px}}

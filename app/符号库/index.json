@@ -1,0 +1,2447 @@
+[
+  {
+    "name": "80um cladding",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-80um-cladding.svg"
+  },
+  {
+    "name": "bidf side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-bidf-side.svg"
+  },
+  {
+    "name": "bif side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-bif-side.svg"
+  },
+  {
+    "name": "capillary fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-capillary-fiber.svg"
+  },
+  {
+    "name": "dts sensing fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-dts-sensing-fiber.svg"
+  },
+  {
+    "name": "gyro fiber side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-gyro-fiber-side.svg"
+  },
+  {
+    "name": "gyro fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-gyro-fiber.svg"
+  },
+  {
+    "name": "hdf side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-hdf-side.svg"
+  },
+  {
+    "name": "hermetic fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-hermetic-fiber.svg"
+  },
+  {
+    "name": "high oh fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-high-oh-fiber.svg"
+  },
+  {
+    "name": "low oh fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-low-oh-fiber.svg"
+  },
+  {
+    "name": "metal coated side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-metal-coated-side.svg"
+  },
+  {
+    "name": "om1 side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-om1-side.svg"
+  },
+  {
+    "name": "om2 side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-om2-side.svg"
+  },
+  {
+    "name": "om3 side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-om3-side.svg"
+  },
+  {
+    "name": "om3 xsec",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-om3-xsec.svg"
+  },
+  {
+    "name": "om4 side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-om4-side.svg"
+  },
+  {
+    "name": "om5 side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-om5-side.svg"
+  },
+  {
+    "name": "photosensitive fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-photosensitive-fiber.svg"
+  },
+  {
+    "name": "pof side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-pof-side.svg"
+  },
+  {
+    "name": "polyimide fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-polyimide-fiber.svg"
+  },
+  {
+    "name": "prdf side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-prdf-side.svg"
+  },
+  {
+    "name": "process fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-process-fiber.svg"
+  },
+  {
+    "name": "psc side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-psc-side.svg"
+  },
+  {
+    "name": "rad hard fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-rad-hard-fiber.svg"
+  },
+  {
+    "name": "radiation resistant fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-radiation-resistant-fiber.svg"
+  },
+  {
+    "name": "space qualified",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-space-qualified.svg"
+  },
+  {
+    "name": "spun fiber side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-spun-fiber-side.svg"
+  },
+  {
+    "name": "tec fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-tec-fiber.svg"
+  },
+  {
+    "name": "uhna side",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-uhna-side.svg"
+  },
+  {
+    "name": "ull fiber",
+    "category": "01_application_specific",
+    "path": "符号库/01_application_specific/f-ull-fiber.svg"
+  },
+  {
+    "name": "doubleclad side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-doubleclad-side.svg"
+  },
+  {
+    "name": "doubleclad xsec",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-doubleclad-xsec.svg"
+  },
+  {
+    "name": "dydf side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-dydf-side.svg"
+  },
+  {
+    "name": "er dc fiber side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-er-dc-fiber-side.svg"
+  },
+  {
+    "name": "er zblan side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-er-zblan-side.svg"
+  },
+  {
+    "name": "eydf side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-eydf-side.svg"
+  },
+  {
+    "name": "gainfiber er side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-gainfiber-er-side.svg"
+  },
+  {
+    "name": "gainfiber er xsec",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-gainfiber-er-xsec.svg"
+  },
+  {
+    "name": "ho silica",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-ho-silica.svg"
+  },
+  {
+    "name": "ho zblan side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-ho-zblan-side.svg"
+  },
+  {
+    "name": "nddf side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-nddf-side.svg"
+  },
+  {
+    "name": "tdf side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-tdf-side.svg"
+  },
+  {
+    "name": "ydf side",
+    "category": "01_gain_fibers",
+    "path": "符号库/01_gain_fibers/f-ydf-side.svg"
+  },
+  {
+    "name": "as2s3 side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-as2s3-side.svg"
+  },
+  {
+    "name": "as2se3 side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-as2se3-side.svg"
+  },
+  {
+    "name": "bismuth oxide side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-bismuth-oxide-side.svg"
+  },
+  {
+    "name": "chalcogenide side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-chalcogenide-side.svg"
+  },
+  {
+    "name": "germanate side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-germanate-side.svg"
+  },
+  {
+    "name": "inf3 side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-inf3-side.svg"
+  },
+  {
+    "name": "lead silicate side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-lead-silicate-side.svg"
+  },
+  {
+    "name": "phosphate side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-phosphate-side.svg"
+  },
+  {
+    "name": "sapphire side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-sapphire-side.svg"
+  },
+  {
+    "name": "silver halide side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-silver-halide-side.svg"
+  },
+  {
+    "name": "tellurite side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-tellurite-side.svg"
+  },
+  {
+    "name": "zblan side",
+    "category": "01_mid_ir_fibers",
+    "path": "符号库/01_mid_ir_fibers/f-zblan-side.svg"
+  },
+  {
+    "name": "al doped side",
+    "category": "01_specialty_doped",
+    "path": "符号库/01_specialty_doped/f-al-doped-side.svg"
+  },
+  {
+    "name": "ce doped",
+    "category": "01_specialty_doped",
+    "path": "符号库/01_specialty_doped/f-ce-doped.svg"
+  },
+  {
+    "name": "cr doped side",
+    "category": "01_specialty_doped",
+    "path": "符号库/01_specialty_doped/f-cr-doped-side.svg"
+  },
+  {
+    "name": "er tellurite",
+    "category": "01_specialty_doped",
+    "path": "符号库/01_specialty_doped/f-er-tellurite.svg"
+  },
+  {
+    "name": "ge doped side",
+    "category": "01_specialty_doped",
+    "path": "符号库/01_specialty_doped/f-ge-doped-side.svg"
+  },
+  {
+    "name": "p doped side",
+    "category": "01_specialty_doped",
+    "path": "符号库/01_specialty_doped/f-p-doped-side.svg"
+  },
+  {
+    "name": "tm ho side",
+    "category": "01_specialty_doped",
+    "path": "符号库/01_specialty_doped/f-tm-ho-side.svg"
+  },
+  {
+    "name": "air clad xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-air-clad-xsec.svg"
+  },
+  {
+    "name": "bragg fiber xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-bragg-fiber-xsec.svg"
+  },
+  {
+    "name": "ccc xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-ccc-xsec.svg"
+  },
+  {
+    "name": "dshape xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-dshape-xsec.svg"
+  },
+  {
+    "name": "elliptical clad xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-elliptical-clad-xsec.svg"
+  },
+  {
+    "name": "fmf side",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-fmf-side.svg"
+  },
+  {
+    "name": "hcf side",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-hcf-side.svg"
+  },
+  {
+    "name": "hcf xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-hcf-xsec.svg"
+  },
+  {
+    "name": "hexagonal clad xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-hexagonal-clad-xsec.svg"
+  },
+  {
+    "name": "hom fiber side",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-hom-fiber-side.svg"
+  },
+  {
+    "name": "kagome xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-kagome-xsec.svg"
+  },
+  {
+    "name": "lcf xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-lcf-xsec.svg"
+  },
+  {
+    "name": "lma side",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-lma-side.svg"
+  },
+  {
+    "name": "lma xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-lma-xsec.svg"
+  },
+  {
+    "name": "mcf xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-mcf-xsec.svg"
+  },
+  {
+    "name": "nanf xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-nanf-xsec.svg"
+  },
+  {
+    "name": "nanofiber side",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-nanofiber-side.svg"
+  },
+  {
+    "name": "octagonal clad xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-octagonal-clad-xsec.svg"
+  },
+  {
+    "name": "offset core xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-offset-core-xsec.svg"
+  },
+  {
+    "name": "optical nanofiber",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-optical-nanofiber.svg"
+  },
+  {
+    "name": "pcf side",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-pcf-side.svg"
+  },
+  {
+    "name": "pcf xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-pcf-xsec.svg"
+  },
+  {
+    "name": "pm pcf xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-pm-pcf-xsec.svg"
+  },
+  {
+    "name": "rectangular clad xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-rectangular-clad-xsec.svg"
+  },
+  {
+    "name": "rod type fiber",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-rod-type-fiber.svg"
+  },
+  {
+    "name": "suspended core xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-suspended-core-xsec.svg"
+  },
+  {
+    "name": "tapered fiber",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-tapered-fiber.svg"
+  },
+  {
+    "name": "triple clad xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-triple-clad-xsec.svg"
+  },
+  {
+    "name": "twin core xsec",
+    "category": "01_specialty_fibers",
+    "path": "符号库/01_specialty_fibers/f-twin-core-xsec.svg"
+  },
+  {
+    "name": "bowtie xsec",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-bowtie-xsec.svg"
+  },
+  {
+    "name": "coreless side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-coreless-side.svg"
+  },
+  {
+    "name": "cutoff shifted",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-cutoff-shifted.svg"
+  },
+  {
+    "name": "dcf side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-dcf-side.svg"
+  },
+  {
+    "name": "ddf side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-ddf-side.svg"
+  },
+  {
+    "name": "dsf side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-dsf-side.svg"
+  },
+  {
+    "name": "hi1060 side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-hi1060-side.svg"
+  },
+  {
+    "name": "hnlf side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-hnlf-side.svg"
+  },
+  {
+    "name": "mmf side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-mmf-side.svg"
+  },
+  {
+    "name": "nzdsf side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-nzdsf-side.svg"
+  },
+  {
+    "name": "pm side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-pm-side.svg"
+  },
+  {
+    "name": "pm xsec",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-pm-xsec.svg"
+  },
+  {
+    "name": "smf28 side",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-smf28-side.svg"
+  },
+  {
+    "name": "smf28 xsec",
+    "category": "01_standard_fibers",
+    "path": "符号库/01_standard_fibers/f-smf28-xsec.svg"
+  },
+  {
+    "name": "bare fiber adapter",
+    "category": "02_adapters_accessories",
+    "path": "符号库/02_adapters_accessories/f-bare-fiber-adapter.svg"
+  },
+  {
+    "name": "bulkhead adapter",
+    "category": "02_adapters_accessories",
+    "path": "符号库/02_adapters_accessories/f-bulkhead-adapter.svg"
+  },
+  {
+    "name": "dust cap",
+    "category": "02_adapters_accessories",
+    "path": "符号库/02_adapters_accessories/f-dust-cap.svg"
+  },
+  {
+    "name": "expanded beam",
+    "category": "02_adapters_accessories",
+    "path": "符号库/02_adapters_accessories/f-expanded-beam.svg"
+  },
+  {
+    "name": "llk connector",
+    "category": "02_high_power_connectors",
+    "path": "符号库/02_high_power_connectors/f-llk-connector.svg"
+  },
+  {
+    "name": "qbh connector",
+    "category": "02_high_power_connectors",
+    "path": "符号库/02_high_power_connectors/f-qbh-connector.svg"
+  },
+  {
+    "name": "fddi connector",
+    "category": "02_multi_fiber_connectors",
+    "path": "符号库/02_multi_fiber_connectors/f-fddi-connector.svg"
+  },
+  {
+    "name": "mdc connector",
+    "category": "02_multi_fiber_connectors",
+    "path": "符号库/02_multi_fiber_connectors/f-mdc-connector.svg"
+  },
+  {
+    "name": "mmc connector",
+    "category": "02_multi_fiber_connectors",
+    "path": "符号库/02_multi_fiber_connectors/f-mmc-connector.svg"
+  },
+  {
+    "name": "mpo connector",
+    "category": "02_multi_fiber_connectors",
+    "path": "符号库/02_multi_fiber_connectors/f-mpo-connector.svg"
+  },
+  {
+    "name": "biconic connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-biconic-connector.svg"
+  },
+  {
+    "name": "cs connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-cs-connector.svg"
+  },
+  {
+    "name": "din connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-din-connector.svg"
+  },
+  {
+    "name": "e2000 connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-e2000-connector.svg"
+  },
+  {
+    "name": "fc apc",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-fc-apc.svg"
+  },
+  {
+    "name": "fc pc",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-fc-pc.svg"
+  },
+  {
+    "name": "fc upc",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-fc-upc.svg"
+  },
+  {
+    "name": "hp sma connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-hp-sma-connector.svg"
+  },
+  {
+    "name": "hp sma",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-hp-sma.svg"
+  },
+  {
+    "name": "lc apc",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-lc-apc.svg"
+  },
+  {
+    "name": "lc connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-lc-connector.svg"
+  },
+  {
+    "name": "lca connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-lca-connector.svg"
+  },
+  {
+    "name": "qd connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-qd-connector.svg"
+  },
+  {
+    "name": "sc apc",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-sc-apc.svg"
+  },
+  {
+    "name": "sc connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-sc-connector.svg"
+  },
+  {
+    "name": "sma connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-sma-connector.svg"
+  },
+  {
+    "name": "sn connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-sn-connector.svg"
+  },
+  {
+    "name": "st connector",
+    "category": "02_single_fiber_connectors",
+    "path": "符号库/02_single_fiber_connectors/f-st-connector.svg"
+  },
+  {
+    "name": "attenuator",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-attenuator.svg"
+  },
+  {
+    "name": "beam switch",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-beam-switch.svg"
+  },
+  {
+    "name": "channel selector",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-channel-selector.svg"
+  },
+  {
+    "name": "crosspoint switch",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-crosspoint-switch.svg"
+  },
+  {
+    "name": "fixed attenuator",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-fixed-attenuator.svg"
+  },
+  {
+    "name": "lcos switch",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-lcos-switch.svg"
+  },
+  {
+    "name": "mems switch",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-mems-switch.svg"
+  },
+  {
+    "name": "olp",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-olp.svg"
+  },
+  {
+    "name": "optical fuse",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-optical-fuse.svg"
+  },
+  {
+    "name": "optical switch",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-optical-switch.svg"
+  },
+  {
+    "name": "power limiter",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-power-limiter.svg"
+  },
+  {
+    "name": "switch matrix",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-switch-matrix.svg"
+  },
+  {
+    "name": "voa",
+    "category": "03_attenuators_switches",
+    "path": "符号库/03_attenuators_switches/f-voa.svg"
+  },
+  {
+    "name": "2um coupler",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-2um-coupler.svg"
+  },
+  {
+    "name": "beamsplitter",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-beamsplitter.svg"
+  },
+  {
+    "name": "coupler 1x2",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-coupler-1x2.svg"
+  },
+  {
+    "name": "coupler 2x2",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-coupler-2x2.svg"
+  },
+  {
+    "name": "monitor splitter",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-monitor-splitter.svg"
+  },
+  {
+    "name": "pbs",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-pbs.svg"
+  },
+  {
+    "name": "plc splitter",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-plc-splitter.svg"
+  },
+  {
+    "name": "pm coupler",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-pm-coupler.svg"
+  },
+  {
+    "name": "star coupler",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-star-coupler.svg"
+  },
+  {
+    "name": "tap coupler",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-tap-coupler.svg"
+  },
+  {
+    "name": "wideband coupler",
+    "category": "03_couplers_splitters",
+    "path": "符号库/03_couplers_splitters/f-wideband-coupler.svg"
+  },
+  {
+    "name": "ase filter",
+    "category": "03_filters",
+    "path": "符号库/03_filters/f-ase-filter.svg"
+  },
+  {
+    "name": "bandpass filter",
+    "category": "03_filters",
+    "path": "符号库/03_filters/f-bandpass-filter.svg"
+  },
+  {
+    "name": "comb filter",
+    "category": "03_filters",
+    "path": "符号库/03_filters/f-comb-filter.svg"
+  },
+  {
+    "name": "lyot filter",
+    "category": "03_filters",
+    "path": "符号库/03_filters/f-lyot-filter.svg"
+  },
+  {
+    "name": "mmi filter",
+    "category": "03_filters",
+    "path": "符号库/03_filters/f-mmi-filter.svg"
+  },
+  {
+    "name": "notch filter",
+    "category": "03_filters",
+    "path": "符号库/03_filters/f-notch-filter.svg"
+  },
+  {
+    "name": "tunable bpf",
+    "category": "03_filters",
+    "path": "符号库/03_filters/f-tunable-bpf.svg"
+  },
+  {
+    "name": "tunable filter",
+    "category": "03_filters",
+    "path": "符号库/03_filters/f-tunable-filter.svg"
+  },
+  {
+    "name": "4port circulator",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-4port-circulator.svg"
+  },
+  {
+    "name": "circulator array",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-circulator-array.svg"
+  },
+  {
+    "name": "circulator",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-circulator.svg"
+  },
+  {
+    "name": "faraday mirror",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-faraday-mirror.svg"
+  },
+  {
+    "name": "faraday rotator",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-faraday-rotator.svg"
+  },
+  {
+    "name": "hp isolator",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-hp-isolator.svg"
+  },
+  {
+    "name": "inline circulator",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-inline-circulator.svg"
+  },
+  {
+    "name": "isolator",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-isolator.svg"
+  },
+  {
+    "name": "pm circulator",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-pm-circulator.svg"
+  },
+  {
+    "name": "pm isolator",
+    "category": "03_isolators_circulators",
+    "path": "符号库/03_isolators_circulators/f-pm-isolator.svg"
+  },
+  {
+    "name": "depolarizer",
+    "category": "03_polarization",
+    "path": "符号库/03_polarization/f-depolarizer.svg"
+  },
+  {
+    "name": "hwp",
+    "category": "03_polarization",
+    "path": "符号库/03_polarization/f-hwp.svg"
+  },
+  {
+    "name": "inline polarizer",
+    "category": "03_polarization",
+    "path": "符号库/03_polarization/f-inline-polarizer.svg"
+  },
+  {
+    "name": "pol scrambler",
+    "category": "03_polarization",
+    "path": "符号库/03_polarization/f-pol-scrambler.svg"
+  },
+  {
+    "name": "polarizer",
+    "category": "03_polarization",
+    "path": "符号库/03_polarization/f-polarizer.svg"
+  },
+  {
+    "name": "polcontroller 1pad",
+    "category": "03_polarization",
+    "path": "符号库/03_polarization/f-polcontroller-1pad.svg"
+  },
+  {
+    "name": "polcontroller 3pad",
+    "category": "03_polarization",
+    "path": "符号库/03_polarization/f-polcontroller-3pad.svg"
+  },
+  {
+    "name": "qwp",
+    "category": "03_polarization",
+    "path": "符号库/03_polarization/f-qwp.svg"
+  },
+  {
+    "name": "awg mux",
+    "category": "03_wdm_mux",
+    "path": "符号库/03_wdm_mux/f-awg-mux.svg"
+  },
+  {
+    "name": "cwdm mux",
+    "category": "03_wdm_mux",
+    "path": "符号库/03_wdm_mux/f-cwdm-mux.svg"
+  },
+  {
+    "name": "dwdm mux",
+    "category": "03_wdm_mux",
+    "path": "符号库/03_wdm_mux/f-dwdm-mux.svg"
+  },
+  {
+    "name": "interleaver",
+    "category": "03_wdm_mux",
+    "path": "符号库/03_wdm_mux/f-interleaver.svg"
+  },
+  {
+    "name": "mux demux module",
+    "category": "03_wdm_mux",
+    "path": "符号库/03_wdm_mux/f-mux-demux-module.svg"
+  },
+  {
+    "name": "mux demux",
+    "category": "03_wdm_mux",
+    "path": "符号库/03_wdm_mux/f-mux-demux.svg"
+  },
+  {
+    "name": "pm interleaver",
+    "category": "03_wdm_mux",
+    "path": "符号库/03_wdm_mux/f-pm-interleaver.svg"
+  },
+  {
+    "name": "wdm",
+    "category": "03_wdm_mux",
+    "path": "符号库/03_wdm_mux/f-wdm.svg"
+  },
+  {
+    "name": "amp module",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-amp-module.svg"
+  },
+  {
+    "name": "amp stage",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-amp-stage.svg"
+  },
+  {
+    "name": "amplifier module",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-amplifier-module.svg"
+  },
+  {
+    "name": "bdfa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-bdfa.svg"
+  },
+  {
+    "name": "booster edfa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-booster-edfa.svg"
+  },
+  {
+    "name": "brillouin amp",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-brillouin-amp.svg"
+  },
+  {
+    "name": "edfa gain block",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-edfa-gain-block.svg"
+  },
+  {
+    "name": "edfa module",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-edfa-module.svg"
+  },
+  {
+    "name": "edfa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-edfa.svg"
+  },
+  {
+    "name": "eydfa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-eydfa.svg"
+  },
+  {
+    "name": "fopa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-fopa.svg"
+  },
+  {
+    "name": "gain clamped edfa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-gain-clamped-edfa.svg"
+  },
+  {
+    "name": "hybrid raman edfa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-hybrid-raman-edfa.svg"
+  },
+  {
+    "name": "preamp edfa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-preamp-edfa.svg"
+  },
+  {
+    "name": "raman amp",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-raman-amp.svg"
+  },
+  {
+    "name": "raman pump unit",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-raman-pump-unit.svg"
+  },
+  {
+    "name": "rsoa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-rsoa.svg"
+  },
+  {
+    "name": "soa gate",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-soa-gate.svg"
+  },
+  {
+    "name": "soa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-soa.svg"
+  },
+  {
+    "name": "tandem pump amp",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-tandem-pump-amp.svg"
+  },
+  {
+    "name": "tdfa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-tdfa.svg"
+  },
+  {
+    "name": "ydfa",
+    "category": "04_amplifiers",
+    "path": "符号库/04_amplifiers/f-ydfa.svg"
+  },
+  {
+    "name": "aom",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-aom.svg"
+  },
+  {
+    "name": "aotf",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-aotf.svg"
+  },
+  {
+    "name": "auto bias ctrl",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-auto-bias-ctrl.svg"
+  },
+  {
+    "name": "chopper",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-chopper.svg"
+  },
+  {
+    "name": "eom",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-eom.svg"
+  },
+  {
+    "name": "fiber stretcher",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-fiber-stretcher.svg"
+  },
+  {
+    "name": "mzm",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-mzm.svg"
+  },
+  {
+    "name": "phase mod",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-phase-mod.svg"
+  },
+  {
+    "name": "pockels",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-pockels.svg"
+  },
+  {
+    "name": "pulse picker",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-pulse-picker.svg"
+  },
+  {
+    "name": "pzt stretcher",
+    "category": "04_modulators",
+    "path": "符号库/04_modulators/f-pzt-stretcher.svg"
+  },
+  {
+    "name": "mm pump combiner",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-mm-pump-combiner.svg"
+  },
+  {
+    "name": "mm pump module",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-mm-pump-module.svg"
+  },
+  {
+    "name": "pump 1480",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-pump-1480.svg"
+  },
+  {
+    "name": "pump 793",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-pump-793.svg"
+  },
+  {
+    "name": "pump 915",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-pump-915.svg"
+  },
+  {
+    "name": "pump combiner",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-pump-combiner.svg"
+  },
+  {
+    "name": "pump diode",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-pump-diode.svg"
+  },
+  {
+    "name": "pump dump",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-pump-dump.svg"
+  },
+  {
+    "name": "pump redundancy",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-pump-redundancy.svg"
+  },
+  {
+    "name": "pump reject",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-pump-reject.svg"
+  },
+  {
+    "name": "seed combiner",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-seed-combiner.svg"
+  },
+  {
+    "name": "vbg pump",
+    "category": "04_pump_sources",
+    "path": "符号库/04_pump_sources/f-vbg-pump.svg"
+  },
+  {
+    "name": "edfa controller",
+    "category": "05_laser_accessories",
+    "path": "符号库/05_laser_accessories/f-edfa-controller.svg"
+  },
+  {
+    "name": "laser driver",
+    "category": "05_laser_accessories",
+    "path": "符号库/05_laser_accessories/f-laser-driver.svg"
+  },
+  {
+    "name": "mirror",
+    "category": "05_laser_accessories",
+    "path": "符号库/05_laser_accessories/f-mirror.svg"
+  },
+  {
+    "name": "multi element",
+    "category": "05_laser_accessories",
+    "path": "符号库/05_laser_accessories/f-multi-element.svg"
+  },
+  {
+    "name": "variable reflector",
+    "category": "05_laser_accessories",
+    "path": "符号库/05_laser_accessories/f-variable-reflector.svg"
+  },
+  {
+    "name": "wavelength locker",
+    "category": "05_laser_accessories",
+    "path": "符号库/05_laser_accessories/f-wavelength-locker.svg"
+  },
+  {
+    "name": "wavelength ref",
+    "category": "05_laser_accessories",
+    "path": "符号库/05_laser_accessories/f-wavelength-ref.svg"
+  },
+  {
+    "name": "cpa system",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-cpa-system.svg"
+  },
+  {
+    "name": "figure8 cavity",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-figure8-cavity.svg"
+  },
+  {
+    "name": "figure9 cavity",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-figure9-cavity.svg"
+  },
+  {
+    "name": "linear cavity",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-linear-cavity.svg"
+  },
+  {
+    "name": "ml oscillator",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-ml-oscillator.svg"
+  },
+  {
+    "name": "mopa",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-mopa.svg"
+  },
+  {
+    "name": "nalm",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-nalm.svg"
+  },
+  {
+    "name": "nolm",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-nolm.svg"
+  },
+  {
+    "name": "ring cavity",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-ring-cavity.svg"
+  },
+  {
+    "name": "sagnac loop",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-sagnac-loop.svg"
+  },
+  {
+    "name": "sigma cavity",
+    "category": "05_laser_cavities",
+    "path": "符号库/05_laser_cavities/f-sigma-cavity.svg"
+  },
+  {
+    "name": "ase source",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-ase-source.svg"
+  },
+  {
+    "name": "dbr laser",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-dbr-laser.svg"
+  },
+  {
+    "name": "dfb laser",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-dfb-laser.svg"
+  },
+  {
+    "name": "ecl",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-ecl.svg"
+  },
+  {
+    "name": "fp laser",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-fp-laser.svg"
+  },
+  {
+    "name": "frequency comb",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-frequency-comb.svg"
+  },
+  {
+    "name": "gsld",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-gsld.svg"
+  },
+  {
+    "name": "laser head",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-laser-head.svg"
+  },
+  {
+    "name": "laser",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-laser.svg"
+  },
+  {
+    "name": "qcl",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-qcl.svg"
+  },
+  {
+    "name": "single freq laser",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-single-freq-laser.svg"
+  },
+  {
+    "name": "sled",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-sled.svg"
+  },
+  {
+    "name": "supercontinuum",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-supercontinuum.svg"
+  },
+  {
+    "name": "ti sa",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-ti-sa.svg"
+  },
+  {
+    "name": "vcsel",
+    "category": "05_laser_sources",
+    "path": "符号库/05_laser_sources/f-vcsel.svg"
+  },
+  {
+    "name": "bp sa",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-bp-sa.svg"
+  },
+  {
+    "name": "cnt sa",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-cnt-sa.svg"
+  },
+  {
+    "name": "graphene sa",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-graphene-sa.svg"
+  },
+  {
+    "name": "kerr lens",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-kerr-lens.svg"
+  },
+  {
+    "name": "mos2 sa",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-mos2-sa.svg"
+  },
+  {
+    "name": "mxene sa",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-mxene-sa.svg"
+  },
+  {
+    "name": "npe modelocker",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-npe-modelocker.svg"
+  },
+  {
+    "name": "sam",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-sam.svg"
+  },
+  {
+    "name": "sesam",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-sesam.svg"
+  },
+  {
+    "name": "time lens",
+    "category": "05_saturable_absorbers",
+    "path": "符号库/05_saturable_absorbers/f-time-lens.svg"
+  },
+  {
+    "name": "coherent dsp",
+    "category": "06_coherent_receivers",
+    "path": "符号库/06_coherent_receivers/f-coherent-dsp.svg"
+  },
+  {
+    "name": "coherent rx",
+    "category": "06_coherent_receivers",
+    "path": "符号库/06_coherent_receivers/f-coherent-rx.svg"
+  },
+  {
+    "name": "coherent transceiver",
+    "category": "06_coherent_receivers",
+    "path": "符号库/06_coherent_receivers/f-coherent-transceiver.svg"
+  },
+  {
+    "name": "dpsk demod",
+    "category": "06_coherent_receivers",
+    "path": "符号库/06_coherent_receivers/f-dpsk-demod.svg"
+  },
+  {
+    "name": "optical hybrid",
+    "category": "06_coherent_receivers",
+    "path": "符号库/06_coherent_receivers/f-optical-hybrid.svg"
+  },
+  {
+    "name": "apd",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-apd.svg"
+  },
+  {
+    "name": "balanced detector",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-balanced-detector.svg"
+  },
+  {
+    "name": "limiting amp",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-limiting-amp.svg"
+  },
+  {
+    "name": "pd array",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-pd-array.svg"
+  },
+  {
+    "name": "photodetector",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-photodetector.svg"
+  },
+  {
+    "name": "photoreceiver",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-photoreceiver.svg"
+  },
+  {
+    "name": "pmt",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-pmt.svg"
+  },
+  {
+    "name": "snspd",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-snspd.svg"
+  },
+  {
+    "name": "spad",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-spad.svg"
+  },
+  {
+    "name": "tia",
+    "category": "06_photodetectors",
+    "path": "符号库/06_photodetectors/f-tia.svg"
+  },
+  {
+    "name": "dcm module",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-dcm-module.svg"
+  },
+  {
+    "name": "dge",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-dge.svg"
+  },
+  {
+    "name": "gff",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-gff.svg"
+  },
+  {
+    "name": "lcos wss",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-lcos-wss.svg"
+  },
+  {
+    "name": "oadm",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-oadm.svg"
+  },
+  {
+    "name": "olt",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-olt.svg"
+  },
+  {
+    "name": "onu",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-onu.svg"
+  },
+  {
+    "name": "optical channel monitor",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-optical-channel-monitor.svg"
+  },
+  {
+    "name": "oxc",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-oxc.svg"
+  },
+  {
+    "name": "patch panel",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-patch-panel.svg"
+  },
+  {
+    "name": "roadm",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-roadm.svg"
+  },
+  {
+    "name": "routing channel",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-routing-channel.svg"
+  },
+  {
+    "name": "wdm terminal",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-wdm-terminal.svg"
+  },
+  {
+    "name": "wss",
+    "category": "07_network_equipment",
+    "path": "符号库/07_network_equipment/f-wss.svg"
+  },
+  {
+    "name": "1x9 transceiver",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-1x9-transceiver.svg"
+  },
+  {
+    "name": "cfp transceiver",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-cfp-transceiver.svg"
+  },
+  {
+    "name": "cfp2",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-cfp2.svg"
+  },
+  {
+    "name": "cfp4",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-cfp4.svg"
+  },
+  {
+    "name": "cfp8",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-cfp8.svg"
+  },
+  {
+    "name": "csfp",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-csfp.svg"
+  },
+  {
+    "name": "elsfp",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-elsfp.svg"
+  },
+  {
+    "name": "gbic",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-gbic.svg"
+  },
+  {
+    "name": "media converter",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-media-converter.svg"
+  },
+  {
+    "name": "osfp transceiver",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-osfp-transceiver.svg"
+  },
+  {
+    "name": "qsfp dd transceiver",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-qsfp-dd-transceiver.svg"
+  },
+  {
+    "name": "qsfp plus",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-qsfp-plus.svg"
+  },
+  {
+    "name": "qsfp transceiver",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-qsfp-transceiver.svg"
+  },
+  {
+    "name": "qsfp112",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-qsfp112.svg"
+  },
+  {
+    "name": "qsfp56",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-qsfp56.svg"
+  },
+  {
+    "name": "sff transceiver",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-sff-transceiver.svg"
+  },
+  {
+    "name": "sfp dd",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-sfp-dd.svg"
+  },
+  {
+    "name": "sfp plus",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-sfp-plus.svg"
+  },
+  {
+    "name": "sfp transceiver",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-sfp-transceiver.svg"
+  },
+  {
+    "name": "sfp28",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-sfp28.svg"
+  },
+  {
+    "name": "sfp56",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-sfp56.svg"
+  },
+  {
+    "name": "transponder",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-transponder.svg"
+  },
+  {
+    "name": "x2 transceiver",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-x2-transceiver.svg"
+  },
+  {
+    "name": "xenpak",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-xenpak.svg"
+  },
+  {
+    "name": "xfp transceiver",
+    "category": "07_transceivers",
+    "path": "符号库/07_transceivers/f-xfp-transceiver.svg"
+  },
+  {
+    "name": "butterfly package",
+    "category": "08_packaging",
+    "path": "符号库/08_packaging/f-butterfly-package.svg"
+  },
+  {
+    "name": "coax package",
+    "category": "08_packaging",
+    "path": "符号库/08_packaging/f-coax-package.svg"
+  },
+  {
+    "name": "hermetic package",
+    "category": "08_packaging",
+    "path": "符号库/08_packaging/f-hermetic-package.svg"
+  },
+  {
+    "name": "mini dil",
+    "category": "08_packaging",
+    "path": "符号库/08_packaging/f-mini-dil.svg"
+  },
+  {
+    "name": "to can package",
+    "category": "08_packaging",
+    "path": "符号库/08_packaging/f-to-can-package.svg"
+  },
+  {
+    "name": "to can",
+    "category": "08_packaging",
+    "path": "符号库/08_packaging/f-to-can.svg"
+  },
+  {
+    "name": "botda",
+    "category": "09_distributed_sensing",
+    "path": "符号库/09_distributed_sensing/f-botda.svg"
+  },
+  {
+    "name": "das",
+    "category": "09_distributed_sensing",
+    "path": "符号库/09_distributed_sensing/f-das.svg"
+  },
+  {
+    "name": "dts",
+    "category": "09_distributed_sensing",
+    "path": "符号库/09_distributed_sensing/f-dts.svg"
+  },
+  {
+    "name": "ofdr",
+    "category": "09_distributed_sensing",
+    "path": "符号库/09_distributed_sensing/f-ofdr.svg"
+  },
+  {
+    "name": "rayleigh ofdr",
+    "category": "09_distributed_sensing",
+    "path": "符号库/09_distributed_sensing/f-rayleigh-ofdr.svg"
+  },
+  {
+    "name": "apodized fbg",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-apodized-fbg.svg"
+  },
+  {
+    "name": "cfbg",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-cfbg.svg"
+  },
+  {
+    "name": "chirped period",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-chirped-period.svg"
+  },
+  {
+    "name": "fbg",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-fbg.svg"
+  },
+  {
+    "name": "fs fbg",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-fs-fbg.svg"
+  },
+  {
+    "name": "lpg",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-lpg.svg"
+  },
+  {
+    "name": "ps fbg",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-ps-fbg.svg"
+  },
+  {
+    "name": "regen fbg",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-regen-fbg.svg"
+  },
+  {
+    "name": "sampled fbg",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-sampled-fbg.svg"
+  },
+  {
+    "name": "tfbg",
+    "category": "09_fiber_gratings",
+    "path": "符号库/09_fiber_gratings/f-tfbg.svg"
+  },
+  {
+    "name": "dosimetry fiber",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-dosimetry-fiber.svg"
+  },
+  {
+    "name": "fbg interrogator",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fbg-interrogator.svg"
+  },
+  {
+    "name": "fbg sensor array",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fbg-sensor-array.svg"
+  },
+  {
+    "name": "fbg strain gauge",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fbg-strain-gauge.svg"
+  },
+  {
+    "name": "fiber accelerometer",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fiber-accelerometer.svg"
+  },
+  {
+    "name": "fiber current sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fiber-current-sensor.svg"
+  },
+  {
+    "name": "fiber gas sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fiber-gas-sensor.svg"
+  },
+  {
+    "name": "fiber hydrophone",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fiber-hydrophone.svg"
+  },
+  {
+    "name": "fiber ph sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fiber-ph-sensor.svg"
+  },
+  {
+    "name": "fiber shape sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fiber-shape-sensor.svg"
+  },
+  {
+    "name": "fiber strain sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fiber-strain-sensor.svg"
+  },
+  {
+    "name": "fiber voltage sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fiber-voltage-sensor.svg"
+  },
+  {
+    "name": "fp fiber sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-fp-fiber-sensor.svg"
+  },
+  {
+    "name": "shape sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-shape-sensor.svg"
+  },
+  {
+    "name": "strain sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-strain-sensor.svg"
+  },
+  {
+    "name": "temperature sensor",
+    "category": "09_sensors",
+    "path": "符号库/09_sensors/f-temperature-sensor.svg"
+  },
+  {
+    "name": "autocorrelator",
+    "category": "10_characterization",
+    "path": "符号库/10_characterization/f-autocorrelator.svg"
+  },
+  {
+    "name": "frog",
+    "category": "10_characterization",
+    "path": "符号库/10_characterization/f-frog.svg"
+  },
+  {
+    "name": "lidar module",
+    "category": "10_characterization",
+    "path": "符号库/10_characterization/f-lidar-module.svg"
+  },
+  {
+    "name": "oct module",
+    "category": "10_characterization",
+    "path": "符号库/10_characterization/f-oct-module.svg"
+  },
+  {
+    "name": "polarization analyzer",
+    "category": "10_characterization",
+    "path": "符号库/10_characterization/f-polarization-analyzer.svg"
+  },
+  {
+    "name": "tcspc",
+    "category": "10_characterization",
+    "path": "符号库/10_characterization/f-tcspc.svg"
+  },
+  {
+    "name": "adc module",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-adc-module.svg"
+  },
+  {
+    "name": "awg gen",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-awg-gen.svg"
+  },
+  {
+    "name": "bias tee",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-bias-tee.svg"
+  },
+  {
+    "name": "boxcar",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-boxcar.svg"
+  },
+  {
+    "name": "cdr",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-cdr.svg"
+  },
+  {
+    "name": "clock recovery",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-clock-recovery.svg"
+  },
+  {
+    "name": "clock synth",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-clock-synth.svg"
+  },
+  {
+    "name": "dac module",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-dac-module.svg"
+  },
+  {
+    "name": "daq",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-daq.svg"
+  },
+  {
+    "name": "dsp asic",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-dsp-asic.svg"
+  },
+  {
+    "name": "fpga",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-fpga.svg"
+  },
+  {
+    "name": "freq synthesizer",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-freq-synthesizer.svg"
+  },
+  {
+    "name": "lockin amp",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-lockin-amp.svg"
+  },
+  {
+    "name": "osc",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-osc.svg"
+  },
+  {
+    "name": "oscilloscope",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-oscilloscope.svg"
+  },
+  {
+    "name": "pattern gen",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-pattern-gen.svg"
+  },
+  {
+    "name": "pid",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-pid.svg"
+  },
+  {
+    "name": "pulse gen",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-pulse-gen.svg"
+  },
+  {
+    "name": "rf amp",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-rf-amp.svg"
+  },
+  {
+    "name": "rf combiner",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-rf-combiner.svg"
+  },
+  {
+    "name": "rf spectrum analyzer",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-rf-spectrum-analyzer.svg"
+  },
+  {
+    "name": "rf splitter elec",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-rf-splitter-elec.svg"
+  },
+  {
+    "name": "sampling scope",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-sampling-scope.svg"
+  },
+  {
+    "name": "serdes",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-serdes.svg"
+  },
+  {
+    "name": "signal analyzer",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-signal-analyzer.svg"
+  },
+  {
+    "name": "vna",
+    "category": "10_electronics_instruments",
+    "path": "符号库/10_electronics_instruments/f-vna.svg"
+  },
+  {
+    "name": "beam profiler",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-beam-profiler.svg"
+  },
+  {
+    "name": "ber tester",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-ber-tester.svg"
+  },
+  {
+    "name": "bpp monitor",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-bpp-monitor.svg"
+  },
+  {
+    "name": "cd analyzer",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-cd-analyzer.svg"
+  },
+  {
+    "name": "continuity tester",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-continuity-tester.svg"
+  },
+  {
+    "name": "fiber identifier",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-fiber-identifier.svg"
+  },
+  {
+    "name": "fiber scope",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-fiber-scope.svg"
+  },
+  {
+    "name": "il rl meter",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-il-rl-meter.svg"
+  },
+  {
+    "name": "olts",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-olts.svg"
+  },
+  {
+    "name": "orl meter",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-orl-meter.svg"
+  },
+  {
+    "name": "osa",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-osa.svg"
+  },
+  {
+    "name": "osnr meter",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-osnr-meter.svg"
+  },
+  {
+    "name": "otdr",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-otdr.svg"
+  },
+  {
+    "name": "pmd analyzer",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-pmd-analyzer.svg"
+  },
+  {
+    "name": "power meter",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-power-meter.svg"
+  },
+  {
+    "name": "spectrometer",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-spectrometer.svg"
+  },
+  {
+    "name": "vfl",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-vfl.svg"
+  },
+  {
+    "name": "wavemeter",
+    "category": "10_test_equipment",
+    "path": "符号库/10_test_equipment/f-wavemeter.svg"
+  },
+  {
+    "name": "beam dump",
+    "category": "11_beam_delivery",
+    "path": "符号库/11_beam_delivery/f-beam-dump.svg"
+  },
+  {
+    "name": "beam expander",
+    "category": "11_beam_delivery",
+    "path": "符号库/11_beam_delivery/f-beam-expander.svg"
+  },
+  {
+    "name": "collimator",
+    "category": "11_beam_delivery",
+    "path": "符号库/11_beam_delivery/f-collimator.svg"
+  },
+  {
+    "name": "fiber launch",
+    "category": "11_beam_delivery",
+    "path": "符号库/11_beam_delivery/f-fiber-launch.svg"
+  },
+  {
+    "name": "galvo",
+    "category": "11_beam_delivery",
+    "path": "符号库/11_beam_delivery/f-galvo.svg"
+  },
+  {
+    "name": "coiling mandrel",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-coiling-mandrel.svg"
+  },
+  {
+    "name": "delay spool",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-delay-spool.svg"
+  },
+  {
+    "name": "fiber clamp",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-fiber-clamp.svg"
+  },
+  {
+    "name": "fiber delay spool",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-fiber-delay-spool.svg"
+  },
+  {
+    "name": "fiber routing tray",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-fiber-routing-tray.svg"
+  },
+  {
+    "name": "fiber spool",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-fiber-spool.svg"
+  },
+  {
+    "name": "furcation",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-furcation.svg"
+  },
+  {
+    "name": "mandrel wrap",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-mandrel-wrap.svg"
+  },
+  {
+    "name": "splice tray",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-splice-tray.svg"
+  },
+  {
+    "name": "strain relief",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-strain-relief.svg"
+  },
+  {
+    "name": "vgroove array",
+    "category": "11_cable_management",
+    "path": "符号库/11_cable_management/f-vgroove-array.svg"
+  },
+  {
+    "name": "back refl monitor",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-back-refl-monitor.svg"
+  },
+  {
+    "name": "cladding stripper",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-cladding-stripper.svg"
+  },
+  {
+    "name": "delayline",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-delayline.svg"
+  },
+  {
+    "name": "fiber bundle",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-fiber-bundle.svg"
+  },
+  {
+    "name": "fiber etalon",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-fiber-etalon.svg"
+  },
+  {
+    "name": "fiber tap",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-fiber-tap.svg"
+  },
+  {
+    "name": "hp cls",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-hp-cls.svg"
+  },
+  {
+    "name": "inline monitor",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-inline-monitor.svg"
+  },
+  {
+    "name": "inline power meter",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-inline-power-meter.svg"
+  },
+  {
+    "name": "loopback",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-loopback.svg"
+  },
+  {
+    "name": "mfa",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-mfa.svg"
+  },
+  {
+    "name": "mode conditioner",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-mode-conditioner.svg"
+  },
+  {
+    "name": "mode stripper",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-mode-stripper.svg"
+  },
+  {
+    "name": "optical buffer",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-optical-buffer.svg"
+  },
+  {
+    "name": "photonic lantern",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-photonic-lantern.svg"
+  },
+  {
+    "name": "rotary joint",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-rotary-joint.svg"
+  },
+  {
+    "name": "sample",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-sample.svg"
+  },
+  {
+    "name": "speckle homogenizer",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-speckle-homogenizer.svg"
+  },
+  {
+    "name": "tap pd module",
+    "category": "11_inline_components",
+    "path": "符号库/11_inline_components/f-tap-pd-module.svg"
+  },
+  {
+    "name": "endcap",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-endcap.svg"
+  },
+  {
+    "name": "fiber cleaver",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-fiber-cleaver.svg"
+  },
+  {
+    "name": "fiber polisher",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-fiber-polisher.svg"
+  },
+  {
+    "name": "fiber recoater",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-fiber-recoater.svg"
+  },
+  {
+    "name": "fiber terminator",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-fiber-terminator.svg"
+  },
+  {
+    "name": "fuse terminator",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-fuse-terminator.svg"
+  },
+  {
+    "name": "fusion splicer",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-fusion-splicer.svg"
+  },
+  {
+    "name": "mech splice",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-mech-splice.svg"
+  },
+  {
+    "name": "mechanical splice",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-mechanical-splice.svg"
+  },
+  {
+    "name": "splice",
+    "category": "11_splicing_termination",
+    "path": "符号库/11_splicing_termination/f-splice.svg"
+  },
+  {
+    "name": "chiller",
+    "category": "11_thermal_mechanical",
+    "path": "符号库/11_thermal_mechanical/f-chiller.svg"
+  },
+  {
+    "name": "heat sink",
+    "category": "11_thermal_mechanical",
+    "path": "符号库/11_thermal_mechanical/f-heat-sink.svg"
+  },
+  {
+    "name": "safety interlock",
+    "category": "11_thermal_mechanical",
+    "path": "符号库/11_thermal_mechanical/f-safety-interlock.svg"
+  },
+  {
+    "name": "tec controller",
+    "category": "11_thermal_mechanical",
+    "path": "符号库/11_thermal_mechanical/f-tec-controller.svg"
+  },
+  {
+    "name": "tec module",
+    "category": "11_thermal_mechanical",
+    "path": "符号库/11_thermal_mechanical/f-tec-module.svg"
+  },
+  {
+    "name": "temp enclosure",
+    "category": "11_thermal_mechanical",
+    "path": "符号库/11_thermal_mechanical/f-temp-enclosure.svg"
+  },
+  {
+    "name": "vacuum feedthrough",
+    "category": "11_thermal_mechanical",
+    "path": "符号库/11_thermal_mechanical/f-vacuum-feedthrough.svg"
+  },
+  {
+    "name": "vibration isolator",
+    "category": "11_thermal_mechanical",
+    "path": "符号库/11_thermal_mechanical/f-vibration-isolator.svg"
+  },
+  {
+    "name": "bell analyzer",
+    "category": "12_quantum_optics",
+    "path": "符号库/12_quantum_optics/f-bell-analyzer.svg"
+  },
+  {
+    "name": "entangled source",
+    "category": "12_quantum_optics",
+    "path": "符号库/12_quantum_optics/f-entangled-source.svg"
+  },
+  {
+    "name": "pol entangler",
+    "category": "12_quantum_optics",
+    "path": "符号库/12_quantum_optics/f-pol-entangler.svg"
+  },
+  {
+    "name": "qkd module",
+    "category": "12_quantum_optics",
+    "path": "符号库/12_quantum_optics/f-qkd-module.svg"
+  },
+  {
+    "name": "quantum bs",
+    "category": "12_quantum_optics",
+    "path": "符号库/12_quantum_optics/f-quantum-bs.svg"
+  },
+  {
+    "name": "quantum memory",
+    "category": "12_quantum_optics",
+    "path": "符号库/12_quantum_optics/f-quantum-memory.svg"
+  },
+  {
+    "name": "single photon source",
+    "category": "12_quantum_optics",
+    "path": "符号库/12_quantum_optics/f-single-photon-source.svg"
+  },
+  {
+    "name": "2r regenerator",
+    "category": "12_specialty_systems",
+    "path": "符号库/12_specialty_systems/f-2r-regenerator.svg"
+  },
+  {
+    "name": "cpo module",
+    "category": "12_specialty_systems",
+    "path": "符号库/12_specialty_systems/f-cpo-module.svg"
+  },
+  {
+    "name": "fog coil",
+    "category": "12_specialty_systems",
+    "path": "符号库/12_specialty_systems/f-fog-coil.svg"
+  },
+  {
+    "name": "multipass cell",
+    "category": "12_specialty_systems",
+    "path": "符号库/12_specialty_systems/f-multipass-cell.svg"
+  },
+  {
+    "name": "optical shutter",
+    "category": "12_specialty_systems",
+    "path": "符号库/12_specialty_systems/f-optical-shutter.svg"
+  },
+  {
+    "name": "pic",
+    "category": "12_specialty_systems",
+    "path": "符号库/12_specialty_systems/f-pic.svg"
+  },
+  {
+    "name": "regenerator",
+    "category": "12_specialty_systems",
+    "path": "符号库/12_specialty_systems/f-regenerator.svg"
+  },
+  {
+    "name": "wavelength converter",
+    "category": "12_specialty_systems",
+    "path": "符号库/12_specialty_systems/f-wavelength-converter.svg"
+  }
+]

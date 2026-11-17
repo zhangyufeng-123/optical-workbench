@@ -1,0 +1,8 @@
+.command-dialog{width:min(680px,calc(100vw - 32px));padding:0;border:1px solid #b9cbd5;border-radius:9px;color:#243746;background:#fff;font:13px 'Microsoft YaHei UI','Segoe UI',sans-serif;overflow:hidden}
+.command-dialog .command-search-row{display:flex;gap:10px;align-items:center;padding:14px;border-bottom:1px solid #d4dee5}
+.command-dialog #commandSearch{flex:1;min-width:0;border:0;border-radius:3px;margin:0;padding:10px;font:14px 'Microsoft YaHei UI','Segoe UI',sans-serif;background:#f2f6f8}
+.command-dialog [data-command-close]{margin:0;padding:6px 9px;font-size:12px}
+.command-dialog .command-results{max-height:min(490px,60vh);overflow:auto;padding:7px}
+.command-dialog .command-result{display:grid;grid-template-columns:48px minmax(0,1fr) auto;gap:12px;align-items:center;text-align:left;width:100%;margin:0;padding:10px 9px;border:1px solid transparent;background:transparent;border-radius:4px;font:inherit;white-space:normal;line-height:1.5}
+.command-dialog .command-current{background:#e9f2f7;border-color:#c3d9e5}.command-dialog .command-result[aria-disabled=true]{color:#6c7b86}.command-dialog .command-group,.command-dialog .command-shortcut{font-size:12px;color:#5e7180}.command-dialog .command-shortcut{max-width:200px;text-align:right}.command-dialog footer{display:flex;justify-content:space-between;gap:12px;padding:10px 16px;border-top:1px solid #d4dee5;font-size:12px;color:#5e7180;background:#f6f8fa}.command-dialog :focus-visible{outline:2px solid #246c88;outline-offset:2px}
+@media(max-width:560px){.command-dialog .command-result{grid-template-columns:38px 1fr;gap:8px}.command-dialog .command-shortcut{grid-column:2;text-align:left;max-width:none}.command-dialog footer{flex-wrap:wrap}}

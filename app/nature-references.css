@@ -1,0 +1,23 @@
+.nature-reference-panel{padding:12px;box-sizing:border-box}
+.nature-reference-panel h2{font-size:17px;margin:0 0 5px;color:var(--shell-ink,#243746)}
+.nature-reference-count{font-size:12px;color:var(--shell-muted,#617381);line-height:1.5;margin:0 0 12px}
+.nature-reference-panel>input,.nature-reference-panel>select{width:100%;box-sizing:border-box;padding:8px;margin:0 0 8px;border:1px solid #bccbd5;border-radius:4px;background:#fff;font:inherit}
+.nature-reference-preset{width:100%;margin:0 0 12px}
+.nature-reference-feedback{padding:8px 9px;margin:0 0 12px;background:#edf5f8;color:#315f75;border-radius:4px;font-size:12px;line-height:1.6;overflow-wrap:anywhere}
+.nature-reference-feedback.is-error,.nature-reference-state.is-error{color:#a3413e}
+.nature-reference-card{border-top:1px solid var(--shell-line,#d5dfe5);padding:14px 0}
+.nature-reference-card.is-selected{border-top-color:#7ea5b9;box-shadow:inset 3px 0 #286c8b;padding-left:9px}
+.nature-reference-card img{display:block;width:100%;height:150px;object-fit:contain;background:#fff;border:1px solid #e2e8ec;box-sizing:border-box}
+.nature-reference-card h3{font-size:12px;line-height:1.55;font-weight:600;margin:9px 0 5px;overflow-wrap:anywhere}
+.nature-reference-card p{font-size:12px;line-height:1.55;color:#617381;margin:5px 0}
+.nature-reference-card .nature-reference-meta{font-size:11px;color:#527388}
+.nature-reference-links{display:flex;align-items:center;gap:12px;margin-top:8px;flex-wrap:wrap}
+.nature-reference-links a{color:#246c88;text-decoration:none;font-size:12px}.nature-reference-links a:hover{text-decoration:underline}
+.nature-reference-links button{font-size:11px;padding:5px 8px;margin-left:auto}
+.nature-reference-render{display:block;width:100%;margin:10px 0 0;padding:8px!important;white-space:normal}
+.nature-reference-card .nature-reference-state{font-size:11px;color:#557b8f;line-height:1.6;margin:7px 0 0;overflow-wrap:anywhere}
+.nature-reference-card .nature-reference-state.is-error{color:#a3413e}
+.nature-reference-detail{margin:9px 0 0;font-size:11px}.nature-reference-detail .nature-reference-links{margin-top:9px;gap:10px}.nature-reference-detail button{white-space:normal}
+.nature-reference-panel [hidden]{display:none!important}
+
+.nature-reference-scope,.nature-reference-attribution{color:#617381;font-size:11px!important;overflow-wrap:anywhere}.nature-reference-card details{margin-top:8px;overflow-wrap:anywhere}.nature-reference-card summary{cursor:pointer;color:#286c8b;font-size:12px}.nature-reference-card details p{line-height:1.5}

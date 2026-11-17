@@ -1,0 +1,65 @@
+name: 问题反馈
+description: 记录试用中遇到的问题，帮助维护者复现与修复。
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请尽量提供复现步骤和截图。不要上传 API 密钥、账号信息或未经确认可以共享的实验工程。
+  - type: input
+    id: version
+    attributes:
+      label: 软件版本
+      placeholder: 例如 V5.9，或所使用的 Release 链接
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本
+      placeholder: 例如 Windows 11 64 位
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题位置
+      options:
+        - 启动或界面
+        - 器件或连接
+        - 自动排版
+        - 渲染或文字编辑
+        - 保存或导出
+        - AI 服务
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 从打开程序开始，按顺序描述点击或输入了什么。
+      placeholder: |
+        1. 打开……
+        2. 点击……
+        3. 出现……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      description: 可附截图、报错文字或已确认可共享的最小示例。
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: 补充信息
+      description: 如显卡型号、屏幕缩放比例、所选字体、导出参数，以及是否每次都能复现。

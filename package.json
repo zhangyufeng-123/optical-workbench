@@ -1,0 +1,55 @@
+{
+  "name": "optical-workbench-desktop",
+  "version": "5.9.0",
+  "private": true,
+  "description": "光学光路设计台 V5.9 可编辑文字与字体 Windows桌面版",
+  "author": "Optical Workbench",
+  "main": "main.cjs",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "stage": "node stage.cjs",
+    "test": "node scripts/test.cjs",
+    "start": "electron .",
+    "pack": "npm run build && npm run stage && electron-builder --win portable --x64",
+    "test:native": "electron qa/verify-label-editor.cjs",
+    "test:portable": "node verify-portable.cjs"
+  },
+  "devDependencies": {
+    "electron": "45.3.3",
+    "electron-builder": "26.18.0",
+    "esbuild": "0.28.2"
+  },
+  "build": {
+    "appId": "local.optical-workbench.desktop",
+    "productName": "光学光路设计台",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "ai-service.cjs",
+      "web/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "signAndEditExecutable": false,
+      "artifactName": "光学光路设计台_V5.9_文字编辑与字体_Windows_x64.exe"
+    },
+    "portable": {
+      "requestExecutionLevel": "user"
+    }
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

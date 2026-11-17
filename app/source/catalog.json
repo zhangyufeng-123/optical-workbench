@@ -1,0 +1,5551 @@
+[
+  {
+    "id": "laser",
+    "name": "窄线宽光纤光源",
+    "category": "光源",
+    "shape": "instrument",
+    "size": [
+      215,
+      85,
+      160
+    ],
+    "ports": [
+      {
+        "id": "out",
+        "label": "光纤输出",
+        "pos": [
+          65,
+          29,
+          89
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "LASER SOURCE",
+    "note": "波长、线宽和功率需按实际光源填写。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "LASER SOURCE",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "sld",
+    "name": "SLD 宽带光源",
+    "category": "光源",
+    "shape": "instrument",
+    "size": [
+      215,
+      85,
+      160
+    ],
+    "ports": [
+      {
+        "id": "out",
+        "label": "光纤输出",
+        "pos": [
+          65,
+          29,
+          89
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "SLD SOURCE",
+    "note": "宽带光源不能直接当作单色测量条件。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "SLD SOURCE",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "polarizer",
+    "name": "在线光纤起偏器",
+    "category": "偏振与样品",
+    "shape": "inline",
+    "size": [
+      90,
+      34,
+      38
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -53,
+          22,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          53,
+          22,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "POLARIZER",
+    "note": "两端光纤接口；不含外部空间光路。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "POLARIZER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "paddle",
+    "name": "三环偏振控制器",
+    "category": "偏振与样品",
+    "shape": "paddle",
+    "size": [
+      245,
+      105,
+      100
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -130.5,
+          32,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          130.5,
+          32,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "3-PADDLE FPC",
+    "note": "绕圈仅表达结构，不代表指定波长的已标定设置。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "3-PADDLE FPC",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "epc",
+    "name": "电动偏振控制器",
+    "category": "偏振与样品",
+    "shape": "module",
+    "size": [
+      150,
+      52,
+      105
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -83,
+          28,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          83,
+          28,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "POL. CONTROLLER",
+    "note": "电动全光纤控制器示意；控制响应需由真实器件确定。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "POL. CONTROLLER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "qwp",
+    "name": "螺旋光纤波片 QWP",
+    "category": "偏振与样品",
+    "shape": "helix",
+    "size": [
+      170,
+      60,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -93,
+          38,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          93,
+          38,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "SHB / QWP",
+    "note": "参考论文几何：R≈10.45 mm、外绕螺距≈42.2 mm、弧长≈137 mm。不是实测结果。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "SHB / QWP",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "hwp",
+    "name": "螺旋光纤波片 HWP",
+    "category": "偏振与样品",
+    "shape": "helix",
+    "size": [
+      245,
+      60,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -130.5,
+          38,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          130.5,
+          38,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "SHB / HWP",
+    "note": "参考论文几何：R≈10.45 mm、外绕螺距≈42.2 mm、弧长≈274 mm。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "SHB / HWP",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "sample",
+    "name": "自制光纤样品夹具",
+    "category": "偏振与样品",
+    "shape": "sample",
+    "size": [
+      200,
+      48,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -108,
+          32,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          108,
+          32,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER UNDER TEST",
+    "note": "用于自制样品。内自旋节距与外部绕制螺距是不同参数。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FIBER UNDER TEST",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "splitter",
+    "name": "1×2 光纤耦合器",
+    "category": "无源器件",
+    "shape": "passive",
+    "size": [
+      100,
+      25,
+      65
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -58,
+          18,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "a",
+        "label": "输出 A",
+        "pos": [
+          58,
+          18,
+          -18
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "b",
+        "label": "输出 B",
+        "pos": [
+          58,
+          18,
+          18
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "1 × 2 COUPLER",
+    "note": "分光比可在备注填写。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "1 × 2 COUPLER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "coupler22",
+    "name": "2×2 光纤耦合器",
+    "category": "无源器件",
+    "shape": "passive",
+    "size": [
+      110,
+      25,
+      65
+    ],
+    "ports": [
+      {
+        "id": "a",
+        "label": "端口 1",
+        "pos": [
+          -63,
+          18,
+          -18
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "b",
+        "label": "端口 2",
+        "pos": [
+          -63,
+          18,
+          18
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "c",
+        "label": "端口 3",
+        "pos": [
+          63,
+          18,
+          -18
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "d",
+        "label": "端口 4",
+        "pos": [
+          63,
+          18,
+          18
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "2 × 2 COUPLER",
+    "note": "",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "2 × 2 COUPLER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "isolator",
+    "name": "光纤隔离器",
+    "category": "无源器件",
+    "shape": "inline",
+    "size": [
+      95,
+      34,
+      38
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -55.5,
+          22,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          55.5,
+          22,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "ISOLATOR",
+    "note": "方向：输入到输出。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "ISOLATOR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "circulator",
+    "name": "三端口环形器",
+    "category": "无源器件",
+    "shape": "passive",
+    "size": [
+      100,
+      28,
+      65
+    ],
+    "ports": [
+      {
+        "id": "p1",
+        "label": "端口 1",
+        "pos": [
+          -58,
+          19,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p2",
+        "label": "端口 2",
+        "pos": [
+          58,
+          19,
+          -18
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p3",
+        "label": "端口 3",
+        "pos": [
+          58,
+          19,
+          18
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "CIRCULATOR",
+    "note": "常见环行顺序 1→2→3；本工具不计算传播。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "CIRCULATOR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "wdm",
+    "name": "波分复用器 WDM",
+    "category": "无源器件",
+    "shape": "passive",
+    "size": [
+      105,
+      28,
+      65
+    ],
+    "ports": [
+      {
+        "id": "com",
+        "label": "公共端",
+        "pos": [
+          -60.5,
+          19,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "a",
+        "label": "波段 A",
+        "pos": [
+          60.5,
+          19,
+          -18
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "b",
+        "label": "波段 B",
+        "pos": [
+          60.5,
+          19,
+          18
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "WDM",
+    "note": "波段需按实际器件选择，未设定具体波长。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "WDM",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "attenuator",
+    "name": "可调光衰减器",
+    "category": "无源器件",
+    "shape": "attenuator",
+    "size": [
+      105,
+      60,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -60.5,
+          24,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          60.5,
+          24,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "VARIABLE ATTEN.",
+    "note": "可调旋钮为外观示意。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "VARIABLE ATTEN.",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "switch",
+    "name": "1×2 光纤开关",
+    "category": "无源器件",
+    "shape": "module",
+    "size": [
+      120,
+      42,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "公共端",
+        "pos": [
+          -68,
+          25,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "a",
+        "label": "通道 A",
+        "pos": [
+          68,
+          25,
+          -20
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "b",
+        "label": "通道 B",
+        "pos": [
+          68,
+          25,
+          20
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "OPTICAL SWITCH",
+    "note": "",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "OPTICAL SWITCH",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "filter",
+    "name": "在线光纤滤波器",
+    "category": "无源器件",
+    "shape": "inline",
+    "size": [
+      100,
+      34,
+      38
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -58,
+          22,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          58,
+          22,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "BANDPASS FILTER",
+    "note": "",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "BANDPASS FILTER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "eom",
+    "name": "光纤电光调制器",
+    "category": "有源器件",
+    "shape": "eom",
+    "size": [
+      150,
+      38,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -83,
+          24,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          83,
+          24,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER EOM",
+    "note": "金色射频接头只作外观展示，光纤连线不能接电端口。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FIBER EOM",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "edfa",
+    "name": "掺铒光纤放大器",
+    "category": "有源器件",
+    "shape": "instrument",
+    "size": [
+      230,
+      85,
+      170
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          36,
+          29,
+          94
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          79,
+          29,
+          94
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "EDFA",
+    "note": "通常面向 1.5 µm 波段，不能直接代替 1310 nm 放大器。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "EDFA",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "polarimeter",
+    "name": "光纤输入偏振分析仪",
+    "category": "测量",
+    "shape": "analyzer",
+    "size": [
+      155,
+      80,
+      130
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "光纤输入",
+        "pos": [
+          0,
+          42,
+          74
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "POLARIMETER",
+    "note": "测量头式外观，软件读出；内部结构需按型号核实。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "POLARIMETER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "powermeter",
+    "name": "光功率计",
+    "category": "测量",
+    "shape": "meter",
+    "size": [
+      125,
+      60,
+      110
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "光纤输入",
+        "pos": [
+          35,
+          24,
+          64
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "POWER METER",
+    "note": "显示屏仅标识功能，不生成测量数值。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "POWER METER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "photodiode",
+    "name": "光纤光电探测器",
+    "category": "测量",
+    "shape": "detector",
+    "size": [
+      90,
+      65,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "光纤输入",
+        "pos": [
+          0,
+          38,
+          49
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "PHOTODETECTOR",
+    "note": "BNC 输出为电端口，仅展示，不可接光纤。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "PHOTODETECTOR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "osa",
+    "name": "光谱分析仪",
+    "category": "测量",
+    "shape": "instrument",
+    "size": [
+      265,
+      120,
+      185
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "光纤输入",
+        "pos": [
+          100,
+          33,
+          101.5
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "OPTICAL SPECTRUM",
+    "note": "屏幕为功能示意，无测量曲线。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "OPTICAL SPECTRUM",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "adapter",
+    "name": "FC 光纤转接座",
+    "category": "连接与机械",
+    "shape": "adapter",
+    "size": [
+      65,
+      35,
+      45
+    ],
+    "ports": [
+      {
+        "id": "a",
+        "label": "A 端",
+        "pos": [
+          -39,
+          24,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "b",
+        "label": "B 端",
+        "pos": [
+          39,
+          24,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FC ADAPTER",
+    "note": "",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FC ADAPTER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "spool",
+    "name": "光纤盘纤架",
+    "category": "连接与机械",
+    "shape": "spool",
+    "size": [
+      140,
+      44,
+      140
+    ],
+    "ports": [
+      {
+        "id": "a",
+        "label": "尾纤 A",
+        "pos": [
+          -78,
+          18,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "b",
+        "label": "尾纤 B",
+        "pos": [
+          78,
+          18,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER SPOOL",
+    "note": "盘纤几何用于布局，不代表已验证最小弯曲半径。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FIBER SPOOL",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "clamp",
+    "name": "光纤夹持座",
+    "category": "连接与机械",
+    "shape": "clamp",
+    "size": [
+      65,
+      36,
+      60
+    ],
+    "ports": [],
+    "code": "FIBER CLAMP",
+    "note": "机械件，无光学端口。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FIBER CLAMP",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "stage",
+    "name": "位移台与光纤夹具",
+    "category": "连接与机械",
+    "shape": "stage",
+    "size": [
+      125,
+      65,
+      115
+    ],
+    "ports": [],
+    "code": "TRANSLATION STAGE",
+    "note": "机械件；位移机构为示意。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "TRANSLATION STAGE",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "tunable",
+    "name": "可调谐光纤激光器",
+    "category": "光源",
+    "shape": "tunable",
+    "size": [
+      245,
+      100,
+      175
+    ],
+    "ports": [
+      {
+        "id": "out",
+        "label": "光纤输出",
+        "pos": [
+          83,
+          31,
+          96.5
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "TUNABLE LASER",
+    "note": "调谐范围、步进与线宽需按实际器件填写；屏幕不显示虚构测量值。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "可调谐 TLS laser",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "ase",
+    "name": "ASE 宽带光源",
+    "category": "光源",
+    "shape": "instrument",
+    "size": [
+      220,
+      90,
+      155
+    ],
+    "ports": [
+      {
+        "id": "out",
+        "label": "光纤输出",
+        "pos": [
+          70,
+          29,
+          86.5
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "ASE SOURCE",
+    "note": "光谱范围与功率依真实光源；不是所有 ASE 光源均适用 1310 nm。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "自发辐射 broadband",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "pump",
+    "name": "蝶形封装泵浦激光器",
+    "category": "光源",
+    "shape": "butterfly",
+    "size": [
+      100,
+      38,
+      70
+    ],
+    "ports": [
+      {
+        "id": "out",
+        "label": "尾纤输出",
+        "pos": [
+          58,
+          24,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "PUMP DIODE",
+    "note": "展示通用蝶形封装与电引脚。工作波长、TEC 和驱动器须另外匹配。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "蝶形 butterfly diode TEC",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "pbs",
+    "name": "光纤偏振分束器 PBS",
+    "category": "偏振与样品",
+    "shape": "pbs",
+    "size": [
+      110,
+      31,
+      74
+    ],
+    "ports": [
+      {
+        "id": "com",
+        "label": "公共端",
+        "pos": [
+          -63,
+          21,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "h",
+        "label": "H 输出",
+        "pos": [
+          63,
+          21,
+          -21
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "v",
+        "label": "V 输出",
+        "pos": [
+          63,
+          21,
+          21
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER PBS",
+    "note": "功能端口 H/V 为示意标识；保偏慢轴对准需按实物确定。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "偏振分束 polarization splitter",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "pbc",
+    "name": "光纤偏振合束器 PBC",
+    "category": "偏振与样品",
+    "shape": "pbs",
+    "size": [
+      110,
+      31,
+      74
+    ],
+    "ports": [
+      {
+        "id": "h",
+        "label": "H 输入",
+        "pos": [
+          -63,
+          21,
+          -21
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "v",
+        "label": "V 输入",
+        "pos": [
+          -63,
+          21,
+          21
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "com",
+        "label": "公共输出",
+        "pos": [
+          63,
+          21,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER PBC",
+    "note": "合束端口关系用于布局，不计算两路光的相干叠加。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "偏振合束 polarization combiner",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "squeezer",
+    "name": "挤压式偏振控制器",
+    "category": "偏振与样品",
+    "shape": "squeezer",
+    "size": [
+      185,
+      65,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -100.5,
+          26,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          100.5,
+          26,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER SQUEEZER",
+    "note": "用挤压单元表示应力双折射控制。旋钮角度不等于已标定偏振角。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "挤压 应力 polarization",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "depolarizer",
+    "name": "全光纤消偏器",
+    "category": "偏振与样品",
+    "shape": "depolarizer",
+    "size": [
+      130,
+      33,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -73,
+          22,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          73,
+          22,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "DEPOLARIZER",
+    "note": "消偏效果依光谱、相干性和器件设计；不保证任意输入均完全消偏。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "消偏 depolarizer",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "split4",
+    "name": "1×4 光纤分路器",
+    "category": "无源器件",
+    "shape": "multiport",
+    "size": [
+      130,
+      31,
+      95
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "公共端",
+        "pos": [
+          -73,
+          21,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p1",
+        "label": "通道 1",
+        "pos": [
+          73,
+          21,
+          -30
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p2",
+        "label": "通道 2",
+        "pos": [
+          73,
+          21,
+          -10
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p3",
+        "label": "通道 3",
+        "pos": [
+          73,
+          21,
+          10
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p4",
+        "label": "通道 4",
+        "pos": [
+          73,
+          21,
+          30
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "1 × 4 SPLITTER",
+    "note": "四通道外观示意；分光比和各端口插损请写入备注。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "一分四 splitter PLC",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "split8",
+    "name": "1×8 光纤分路器",
+    "category": "无源器件",
+    "shape": "multiport",
+    "size": [
+      145,
+      31,
+      165
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "公共端",
+        "pos": [
+          -80.5,
+          21,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p1",
+        "label": "通道 1",
+        "pos": [
+          80.5,
+          21,
+          -66.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p2",
+        "label": "通道 2",
+        "pos": [
+          80.5,
+          21,
+          -47.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p3",
+        "label": "通道 3",
+        "pos": [
+          80.5,
+          21,
+          -28.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p4",
+        "label": "通道 4",
+        "pos": [
+          80.5,
+          21,
+          -9.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p5",
+        "label": "通道 5",
+        "pos": [
+          80.5,
+          21,
+          9.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p6",
+        "label": "通道 6",
+        "pos": [
+          80.5,
+          21,
+          28.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p7",
+        "label": "通道 7",
+        "pos": [
+          80.5,
+          21,
+          47.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p8",
+        "label": "通道 8",
+        "pos": [
+          80.5,
+          21,
+          66.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "1 × 8 SPLITTER",
+    "note": "八通道端口均可独立连线。没有假定等分或实测损耗。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "一分八 splitter PLC",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "switch4",
+    "name": "1×4 光纤开关",
+    "category": "无源器件",
+    "shape": "switchbank",
+    "size": [
+      145,
+      53,
+      105
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "公共端",
+        "pos": [
+          -80.5,
+          29,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p1",
+        "label": "通道 1",
+        "pos": [
+          80.5,
+          29,
+          -34.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p2",
+        "label": "通道 2",
+        "pos": [
+          80.5,
+          29,
+          -11.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p3",
+        "label": "通道 3",
+        "pos": [
+          80.5,
+          29,
+          11.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p4",
+        "label": "通道 4",
+        "pos": [
+          80.5,
+          29,
+          34.5
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "1 × 4 SWITCH",
+    "note": "只有光学端口可连纤。当前通道状态需在实际控制器设置。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "四通道 switch",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fixedatten",
+    "name": "固定光衰减器",
+    "category": "无源器件",
+    "shape": "fixedatten",
+    "size": [
+      70,
+      28,
+      38
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -43,
+          20,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          43,
+          20,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIXED ATTENUATOR",
+    "note": "通用封装，不预设衰减量、端面形式或工作波段。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "衰减 attenuator",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "circulator4",
+    "name": "四端口光纤环形器",
+    "category": "无源器件",
+    "shape": "circulator4",
+    "size": [
+      115,
+      32,
+      82
+    ],
+    "ports": [
+      {
+        "id": "p1",
+        "label": "端口 1",
+        "pos": [
+          -65.5,
+          22,
+          -22
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p2",
+        "label": "端口 2",
+        "pos": [
+          65.5,
+          22,
+          -22
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p3",
+        "label": "端口 3",
+        "pos": [
+          65.5,
+          22,
+          22
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p4",
+        "label": "端口 4",
+        "pos": [
+          -65.5,
+          22,
+          22
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "4-PORT CIRCULATOR",
+    "note": "常见顺序 1→2→3→4；实际隔离方向与参数以型号为准。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "四端口 circulator",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "cwdm4",
+    "name": "四通道波分模块",
+    "category": "无源器件",
+    "shape": "multiport",
+    "size": [
+      155,
+      36,
+      110
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "公共端",
+        "pos": [
+          -85.5,
+          25,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p1",
+        "label": "通道 1",
+        "pos": [
+          85.5,
+          25,
+          -36
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p2",
+        "label": "通道 2",
+        "pos": [
+          85.5,
+          25,
+          -12
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p3",
+        "label": "通道 3",
+        "pos": [
+          85.5,
+          25,
+          12
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p4",
+        "label": "通道 4",
+        "pos": [
+          85.5,
+          25,
+          36
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "4-CHANNEL WDM",
+    "note": "通道波长未预设。复用与解复用方向依实际器件选定。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "CWDM DWDM mux demux",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "delayline",
+    "name": "可调光纤延迟线",
+    "category": "无源器件",
+    "shape": "delayline",
+    "size": [
+      210,
+      70,
+      110
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -113,
+          30,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          113,
+          30,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "OPTICAL DELAY",
+    "note": "旋转微分头与平移机构为外形示意；不能从几何位置读取真实群延迟。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "延时 delay",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fibermirror",
+    "name": "光纤反射端镜",
+    "category": "无源器件",
+    "shape": "fibermirror",
+    "size": [
+      90,
+      30,
+      45
+    ],
+    "ports": [
+      {
+        "id": "io",
+        "label": "入射 / 返回",
+        "pos": [
+          -53,
+          22,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER MIRROR",
+    "note": "反射式单端器件；光纤端口为双向，不添加外部空间光束。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "反射 mirror",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fbgfilter",
+    "name": "光纤布拉格光栅滤波器",
+    "category": "无源器件",
+    "shape": "fbgfilter",
+    "size": [
+      160,
+      32,
+      55
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -88,
+          23,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          88,
+          23,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FBG FILTER",
+    "note": "色段仅标识光栅区域，非真实可见栅格；中心波长和带宽待填写。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "布拉格 grating filter",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "phasemod",
+    "name": "光纤相位调制器",
+    "category": "有源器件",
+    "shape": "phasebox",
+    "size": [
+      160,
+      43,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -88,
+          27,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          88,
+          27,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "PHASE MODULATOR",
+    "note": "金色接头是 RF 电端口。Vπ 与调制带宽未预设。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "相位 phase EOM",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "stretcher",
+    "name": "压电光纤拉伸器",
+    "category": "有源器件",
+    "shape": "stretcher",
+    "size": [
+      155,
+      72,
+      135
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -85.5,
+          25,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          85.5,
+          25,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER STRETCHER",
+    "note": "用压电筒与盘绕纤维表达结构；驱动电压与相位响应未仿真。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "压电 PZT stretcher",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "soa",
+    "name": "半导体光放大器 SOA",
+    "category": "有源器件",
+    "shape": "soa",
+    "size": [
+      145,
+      52,
+      95
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -80.5,
+          30,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          80.5,
+          30,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "SOA MODULE",
+    "note": "光放大模块外形示意；增益、波段、偏振依赖与噪声需由真实器件给出。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "半导体 amplifier",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "raman",
+    "name": "拉曼光纤放大器",
+    "category": "有源器件",
+    "shape": "amplifier",
+    "size": [
+      245,
+      100,
+      180
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "信号输入",
+        "pos": [
+          50,
+          31,
+          99
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "信号输出",
+        "pos": [
+          93,
+          31,
+          99
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "RAMAN AMPLIFIER",
+    "note": "内部泵浦结构未展开；不是通用全波段放大器。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "拉曼 amplifier",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "balanced",
+    "name": "平衡光电探测器",
+    "category": "测量",
+    "shape": "balanced",
+    "size": [
+      135,
+      76,
+      100
+    ],
+    "ports": [
+      {
+        "id": "a",
+        "label": "光学输入 +",
+        "pos": [
+          -30,
+          40,
+          59
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "b",
+        "label": "光学输入 −",
+        "pos": [
+          30,
+          40,
+          59
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "BALANCED RECEIVER",
+    "note": "两路光纤输入；差分电输出仅展示，不作为光学端口。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "平衡 balanced detector",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "otdr",
+    "name": "光时域反射仪 OTDR",
+    "category": "测量",
+    "shape": "portable",
+    "size": [
+      165,
+      115,
+      85
+    ],
+    "ports": [
+      {
+        "id": "io",
+        "label": "测试端口",
+        "pos": [
+          45,
+          89,
+          -50.5
+        ],
+        "dir": [
+          0,
+          0,
+          -1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "OTDR",
+    "note": "脉冲反射测试端口为双向；显示屏仅标识仪器，无虚构轨迹。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "反射仪 reflectometer",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "wavemeter",
+    "name": "光波长计",
+    "category": "测量",
+    "shape": "instrument",
+    "size": [
+      220,
+      90,
+      155
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "光纤输入",
+        "pos": [
+          70,
+          29,
+          86.5
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "WAVELENGTH METER",
+    "note": "分辨率与工作波段需按具体型号选择。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "波长 wavelength",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "interrogator",
+    "name": "FBG 解调仪",
+    "category": "测量",
+    "shape": "rackunit",
+    "size": [
+      280,
+      90,
+      170
+    ],
+    "ports": [
+      {
+        "id": "ch1",
+        "label": "通道 1",
+        "pos": [
+          -72,
+          31,
+          94
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "ch2",
+        "label": "通道 2",
+        "pos": [
+          -24,
+          31,
+          94
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "ch3",
+        "label": "通道 3",
+        "pos": [
+          24,
+          31,
+          94
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "ch4",
+        "label": "通道 4",
+        "pos": [
+          72,
+          31,
+          94
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FBG INTERROGATOR",
+    "note": "四个光学读出通道；无温度、应变或波长实测数据。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "解调仪 FBG",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fbgsensor",
+    "name": "FBG 应变传感器",
+    "category": "光纤传感",
+    "shape": "fbgsensor",
+    "size": [
+      165,
+      30,
+      55
+    ],
+    "ports": [
+      {
+        "id": "io",
+        "label": "传感尾纤",
+        "pos": [
+          -90.5,
+          22,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FBG STRAIN SENSOR",
+    "note": "反射式传感封装示意；标距、灵敏度与温度补偿待实测。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "应变 strain FBG",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "temperature",
+    "name": "光纤温度探头",
+    "category": "光纤传感",
+    "shape": "temperature",
+    "size": [
+      150,
+      37,
+      50
+    ],
+    "ports": [
+      {
+        "id": "io",
+        "label": "传感尾纤",
+        "pos": [
+          -83,
+          26,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "TEMPERATURE PROBE",
+    "note": "金属探头与尾纤仅表达结构；实际测温机制与范围由型号确定。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "温度 temperature sensor",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "pressure",
+    "name": "光纤压力探头",
+    "category": "光纤传感",
+    "shape": "pressure",
+    "size": [
+      115,
+      65,
+      80
+    ],
+    "ports": [
+      {
+        "id": "io",
+        "label": "传感尾纤",
+        "pos": [
+          -65.5,
+          37,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "PRESSURE PROBE",
+    "note": "密封膜片外形为通用示意；不提供压力响应或机械耐压依据。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "压力 pressure sensor",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "sensingcoil",
+    "name": "光纤传感线圈",
+    "category": "光纤传感",
+    "shape": "sensingcoil",
+    "size": [
+      185,
+      50,
+      185
+    ],
+    "ports": [
+      {
+        "id": "a",
+        "label": "线圈端 A",
+        "pos": [
+          -100.5,
+          22,
+          -20
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "b",
+        "label": "线圈端 B",
+        "pos": [
+          -100.5,
+          22,
+          20
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "SENSING COIL",
+    "note": "用于传感环路布置；圈数和长度为展示值，不是 FOCT 灵敏度计算输入。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FOCT FOG 线圈 coil",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "splice",
+    "name": "光纤熔接保护点",
+    "category": "连接与机械",
+    "shape": "splice",
+    "size": [
+      115,
+      27,
+      45
+    ],
+    "ports": [
+      {
+        "id": "a",
+        "label": "尾纤 A",
+        "pos": [
+          -65.5,
+          20,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "尾纤熔接",
+        "kind": "optical"
+      },
+      {
+        "id": "b",
+        "label": "尾纤 B",
+        "pos": [
+          65.5,
+          20,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "io",
+        "connector": "尾纤熔接",
+        "kind": "optical"
+      }
+    ],
+    "code": "FUSION SPLICE",
+    "note": "热缩保护套与尾纤；没有 FC 接头。保偏熔接轴向精度需实测。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "熔接 fusion splice PM",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "patchpanel",
+    "name": "八口光纤配线面板",
+    "category": "连接与机械",
+    "shape": "patchpanel",
+    "size": [
+      235,
+      65,
+      80
+    ],
+    "ports": [
+      {
+        "id": "p1",
+        "label": "端口 1",
+        "pos": [
+          -91,
+          33,
+          49
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p2",
+        "label": "端口 2",
+        "pos": [
+          -65,
+          33,
+          49
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p3",
+        "label": "端口 3",
+        "pos": [
+          -39,
+          33,
+          49
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p4",
+        "label": "端口 4",
+        "pos": [
+          -13,
+          33,
+          49
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p5",
+        "label": "端口 5",
+        "pos": [
+          13,
+          33,
+          49
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p6",
+        "label": "端口 6",
+        "pos": [
+          39,
+          33,
+          49
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p7",
+        "label": "端口 7",
+        "pos": [
+          65,
+          33,
+          49
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "p8",
+        "label": "端口 8",
+        "pos": [
+          91,
+          33,
+          49
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "io",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER PATCH PANEL",
+    "note": "面板背部连接关系未预设；这些端口分别作为可接线接口。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "配线 patch panel",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "rotary",
+    "name": "光纤旋转接头",
+    "category": "连接与机械",
+    "shape": "rotary",
+    "size": [
+      130,
+      68,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -73,
+          38,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          73,
+          38,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER ROTARY JOINT",
+    "note": "表示同轴机械旋转接口；旋转损耗与偏振特性未计算。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "旋转 rotary joint",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "oven",
+    "name": "光纤样品温控炉",
+    "category": "连接与机械",
+    "shape": "oven",
+    "size": [
+      200,
+      105,
+      140
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "输入",
+        "pos": [
+          -108,
+          60,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "输出",
+        "pos": [
+          108,
+          60,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "FC/PC",
+        "kind": "optical"
+      }
+    ],
+    "code": "FIBER SAMPLE OVEN",
+    "note": "温控炉与穿纤口示意；温度值、均匀性与热历史需记录真实条件。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "热台 炉 oven temperature",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "vblock",
+    "name": "V 槽光纤支架",
+    "category": "连接与机械",
+    "shape": "vblock",
+    "size": [
+      95,
+      48,
+      70
+    ],
+    "ports": [],
+    "code": "V-GROOVE HOLDER",
+    "note": "无光学端口的机械支撑；槽角、夹紧力和高度为布局示意。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "V槽 holder mount",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "rail",
+    "name": "可调导轨夹持组件",
+    "category": "连接与机械",
+    "shape": "rail",
+    "size": [
+      245,
+      58,
+      85
+    ],
+    "ports": [],
+    "code": "FIBER ALIGNMENT RAIL",
+    "note": "机械导轨、滑块和压紧夹具；不计算位移行程与机械公差。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "导轨 rail stage",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_cwlaser",
+    "name": "连续波空间光激光头",
+    "category": "空间光源",
+    "shape": "fs_cwlaser",
+    "size": [
+      220,
+      105,
+      105
+    ],
+    "ports": [
+      {
+        "id": "out",
+        "label": "激光输出",
+        "pos": [
+          116,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "CW LASER",
+    "note": "通用连续波激光头；波长、功率及激光等级未预设。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "CW LASER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_fslaser",
+    "name": "飞秒激光系统",
+    "category": "空间光源",
+    "shape": "fs_fslaser",
+    "size": [
+      300,
+      125,
+      175
+    ],
+    "ports": [
+      {
+        "id": "out",
+        "label": "脉冲光输出",
+        "pos": [
+          158,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "FEMTOSECOND LASER",
+    "note": "通用封闭脉冲激光外形；不假定脉宽、重复频率或峰值功率。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FEMTOSECOND LASER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_diode",
+    "name": "半导体空间激光模块",
+    "category": "空间光源",
+    "shape": "fs_diode",
+    "size": [
+      120,
+      108,
+      90
+    ],
+    "ports": [
+      {
+        "id": "out",
+        "label": "自由空间输出",
+        "pos": [
+          66,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "DIODE LASER",
+    "note": "散热激光二极管模块示意；驱动、TEC及波长须按实物填写。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "DIODE LASER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_collimator",
+    "name": "空间光准直透镜筒",
+    "category": "空间光源",
+    "shape": "fs_collimator",
+    "size": [
+      125,
+      112,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -59,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          59,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "COLLIMATOR",
+    "note": "两侧自由空间光学接口；准直状态由实际焦距与入射光确定。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "COLLIMATOR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_fiber_collimator",
+    "name": "光纤准直器 / 混合接口",
+    "category": "空间光源",
+    "shape": "fs_fiber_collimator",
+    "size": [
+      125,
+      112,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "光纤输入",
+        "pos": [
+          -63,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "准直空间输出",
+        "pos": [
+          59,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "FIBER COLLIMATOR",
+    "note": "左端 FC/PC 光纤，右端自由空间；双向耦合时需校准焦点和模式匹配。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FIBER COLLIMATOR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_mirror",
+    "name": "平面反射镜",
+    "category": "空间光学",
+    "shape": "fs_mirror",
+    "size": [
+      72,
+      116,
+      82
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "原路返回",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "PLANE MIRROR",
+    "note": "面向 −X 的法向入射反射镜；输入与返回光路共线。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "PLANE MIRROR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_turnmirror",
+    "name": "45° 转向反射镜",
+    "category": "空间光学",
+    "shape": "fs_turnmirror",
+    "size": [
+      88,
+      116,
+      88
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "90° 折转",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "TURNING MIRROR",
+    "note": "镜面法向 (1,0,−1)/√2；沿 +X 入射后沿 +Z 传播，输入/输出共点。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "TURNING MIRROR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_lens_convex",
+    "name": "双凸透镜与镜架",
+    "category": "空间光学",
+    "shape": "fs_lens_convex",
+    "size": [
+      65,
+      116,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -8,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          8,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "CONVEX LENS",
+    "note": "双凸曲面几何示意；无预设焦距、材料折射率或色差计算。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "CONVEX LENS",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_lens_concave",
+    "name": "双凹透镜与镜架",
+    "category": "空间光学",
+    "shape": "fs_lens_concave",
+    "size": [
+      65,
+      116,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -8,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          8,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "CONCAVE LENS",
+    "note": "双凹曲面几何示意；发散能力未进行光线追迹。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "CONCAVE LENS",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_achromat",
+    "name": "消色差双胶合透镜",
+    "category": "空间光学",
+    "shape": "fs_achromat",
+    "size": [
+      65,
+      116,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -9,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          9,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "ACHROMATIC DOUBLET",
+    "note": "用两片不同色调的曲面玻璃表达胶合双透镜；不虚构材料牌号。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "ACHROMATIC DOUBLET",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_cyl_lens",
+    "name": "柱面透镜",
+    "category": "空间光学",
+    "shape": "fs_cyl_lens",
+    "size": [
+      65,
+      116,
+      82
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -8,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          8,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "CYLINDRICAL LENS",
+    "note": "一维柱面曲率与矩形通光口；未计算线焦斑。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "CYLINDRICAL LENS",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_objective",
+    "name": "显微物镜",
+    "category": "空间光学",
+    "shape": "fs_objective",
+    "size": [
+      125,
+      116,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -56,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          56,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "MICROSCOPE OBJECTIVE",
+    "note": "多级物镜筒与前端透镜；倍率、NA、工作距离须另填。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "MICROSCOPE OBJECTIVE",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_pbs",
+    "name": "空间偏振分光棱镜 PBS",
+    "category": "空间光学",
+    "shape": "fs_pbs",
+    "size": [
+      80,
+      116,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          -18,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "透射",
+        "pos": [
+          18,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "ref",
+        "label": "反射",
+        "pos": [
+          0,
+          80,
+          18
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "PBS CUBE",
+    "note": "透射与反射分支分别沿 +X / +Z；偏振轴与消光比未标定。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "PBS CUBE",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_bs_cube",
+    "name": "非偏振立方分束器",
+    "category": "空间光学",
+    "shape": "fs_bs_cube",
+    "size": [
+      80,
+      116,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          -18,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "透射",
+        "pos": [
+          18,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "ref",
+        "label": "反射",
+        "pos": [
+          0,
+          80,
+          18
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "BEAMSPLITTER CUBE",
+    "note": "立方体内部斜膜；不默认 50:50 分光比或全波段无偏振依赖。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "BEAMSPLITTER CUBE",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_bs_plate",
+    "name": "薄片分束器",
+    "category": "空间光学",
+    "shape": "fs_bs_plate",
+    "size": [
+      88,
+      116,
+      88
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "透射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "ref",
+        "label": "反射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "PLATE BEAMSPLITTER",
+    "note": "倾斜薄片，直通 +X 与反射 +Z 在光轴中心分支；不模拟鬼像。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "PLATE BEAMSPLITTER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_qwp",
+    "name": "空间四分之一波片",
+    "category": "空间光学",
+    "shape": "fs_qwp",
+    "size": [
+      72,
+      122,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -5,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          5,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "QUARTER-WAVE PLATE",
+    "note": "刻度旋转架与波片；λ/4仅标识功能，设计波长和快轴须校准。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "QUARTER-WAVE PLATE",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_hwp",
+    "name": "空间二分之一波片",
+    "category": "空间光学",
+    "shape": "fs_hwp",
+    "size": [
+      72,
+      122,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -5,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          5,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "HALF-WAVE PLATE",
+    "note": "刻度旋转架与波片；λ/2仅标识功能，不代入未确认的延迟量。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "HALF-WAVE PLATE",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_polarizer",
+    "name": "空间线偏振片",
+    "category": "空间光学",
+    "shape": "fs_polarizer",
+    "size": [
+      72,
+      122,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -5,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          5,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "LINEAR POLARIZER",
+    "note": "旋转偏振片与透射轴标记；不预设消光比或损伤阈值。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "LINEAR POLARIZER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_iris",
+    "name": "可调光阑",
+    "category": "空间光学",
+    "shape": "fs_iris",
+    "size": [
+      72,
+      120,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -5,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          5,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "ADJUSTABLE IRIS",
+    "note": "叶片式可调光阑外观；孔径仅为建模示意。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "ADJUSTABLE IRIS",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_pinhole",
+    "name": "针孔空间滤波器",
+    "category": "空间光学",
+    "shape": "fs_pinhole",
+    "size": [
+      80,
+      118,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -4,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          4,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "PINHOLE",
+    "note": "薄孔板与 XY 调节架；孔径与衍射响应未标定。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "PINHOLE",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_nd",
+    "name": "中性密度滤光片",
+    "category": "空间光学",
+    "shape": "fs_nd",
+    "size": [
+      72,
+      116,
+      75
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -4,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          4,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "ND FILTER",
+    "note": "灰色吸收片；未假定 OD 或透过率。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "ND FILTER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_filterwheel",
+    "name": "六位滤光片轮",
+    "category": "空间光学",
+    "shape": "fs_filterwheel",
+    "size": [
+      85,
+      154,
+      155
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -7,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          7,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "FILTER WHEEL",
+    "note": "六个滤片位示意；当前通光位在 y=80 mm，滤片参数待填写。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FILTER WHEEL",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_grating",
+    "name": "反射式衍射光栅",
+    "category": "空间光学",
+    "shape": "fs_grating",
+    "size": [
+      85,
+      120,
+      90
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "90° 折转",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "REFLECTION GRATING",
+    "note": "细纹仅表达刻槽方向；出射方向是布局示意，不由光栅方程求解。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "REFLECTION GRATING",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_prism",
+    "name": "直角转向棱镜",
+    "category": "空间光学",
+    "shape": "fs_prism",
+    "size": [
+      80,
+      116,
+      80
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          -18,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "折转",
+        "pos": [
+          0,
+          80,
+          18
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "RIGHT-ANGLE PRISM",
+    "note": "直角棱镜内斜面把 +X 方向转向 +Z；未判断具体材料/波段的全反射条件。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "RIGHT-ANGLE PRISM",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_aom",
+    "name": "空间声光调制器 AOM",
+    "category": "空间调制",
+    "shape": "fs_aom",
+    "size": [
+      130,
+      108,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -56,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          56,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "diffracted",
+        "label": "衍射支路",
+        "pos": [
+          56,
+          80,
+          4
+        ],
+        "dir": [
+          0.998027,
+          0,
+          0.062791
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "ACOUSTO-OPTIC MOD.",
+    "note": "主通道与小角度衍射端口为示意；偏转角不是声频或波长计算结果。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "ACOUSTO-OPTIC MOD.",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_eom",
+    "name": "空间电光晶体调制器",
+    "category": "空间调制",
+    "shape": "fs_eom",
+    "size": [
+      130,
+      110,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -56,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          56,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "ELECTRO-OPTIC CRYSTAL",
+    "note": "晶体与电极外形；不预设 Vπ、频率带宽或调制深度。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "ELECTRO-OPTIC CRYSTAL",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_slm",
+    "name": "反射式空间光调制器 SLM",
+    "category": "空间调制",
+    "shape": "fs_slm",
+    "size": [
+      115,
+      135,
+      140
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "斜入射",
+        "pos": [
+          -30,
+          80,
+          0
+        ],
+        "dir": [
+          -0.965926,
+          0,
+          -0.258819
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "反射调制",
+        "pos": [
+          -30,
+          80,
+          0
+        ],
+        "dir": [
+          -0.965926,
+          0,
+          0.258819
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "SPATIAL LIGHT MOD.",
+    "note": "反射显示面与控制接口；不加载相位图或计算衍射场。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "SPATIAL LIGHT MOD.",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_dmd",
+    "name": "数字微镜调制器 DMD",
+    "category": "空间调制",
+    "shape": "fs_dmd",
+    "size": [
+      125,
+      135,
+      145
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "斜入射",
+        "pos": [
+          -35,
+          80,
+          0
+        ],
+        "dir": [
+          -0.939693,
+          0,
+          -0.34202
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "选通反射",
+        "pos": [
+          -35,
+          80,
+          0
+        ],
+        "dir": [
+          -0.939693,
+          0,
+          0.34202
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "DIGITAL MICROMIRROR",
+    "note": "倾斜微镜阵列用网格纹理标示；端口方向为布局，不替代厂商 ON/OFF 光路。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "DIGITAL MICROMIRROR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_expander",
+    "name": "可调激光扩束镜",
+    "category": "空间光学",
+    "shape": "fs_expander",
+    "size": [
+      190,
+      118,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -91,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          91,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "BEAM EXPANDER",
+    "note": "多级伸缩镜筒与双口径玻璃；倍率与准直未计算。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "BEAM EXPANDER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_delayline",
+    "name": "回返式空间光延迟台",
+    "category": "空间光学",
+    "shape": "fs_delayline",
+    "size": [
+      240,
+      115,
+      140
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          -100,
+          80,
+          -25
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "平行返回",
+        "pos": [
+          -100,
+          80,
+          25
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "FREE-SPACE DELAY",
+    "note": "导轨和回返反射组件；进出光反向平行，实际光程随位移改变但本工具不计算时延。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "FREE-SPACE DELAY",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_dump",
+    "name": "空间光束吸收器",
+    "category": "空间光学",
+    "shape": "fs_dump",
+    "size": [
+      100,
+      115,
+      85
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "光束终端",
+        "pos": [
+          -43,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "BEAM DUMP",
+    "note": "开口黑腔与散热鳍；不是已认证的功率或安全等级选型。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "BEAM DUMP",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_shutter",
+    "name": "电动光束快门",
+    "category": "空间调制",
+    "shape": "fs_shutter",
+    "size": [
+      100,
+      120,
+      100
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -7,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          7,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "BEAM SHUTTER",
+    "note": "机械挡片示意为打开状态；开闭时序和联锁未实现。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "BEAM SHUTTER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_cmos",
+    "name": "CMOS 面阵相机",
+    "category": "空间探测",
+    "shape": "fs_cmos",
+    "size": [
+      115,
+      124,
+      100
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "成像入射",
+        "pos": [
+          -59,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "CMOS CAMERA",
+    "note": "像面探测器与镜头接口；无假造图像、分辨率或噪声参数。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "CMOS CAMERA",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_ccd",
+    "name": "制冷 CCD 相机",
+    "category": "空间探测",
+    "shape": "fs_ccd",
+    "size": [
+      150,
+      125,
+      120
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "成像入射",
+        "pos": [
+          -77,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "COOLED CCD",
+    "note": "散热制冷相机外形；不生成读出图像或暗噪声数据。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "COOLED CCD",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_spd",
+    "name": "空间光单光子探测器",
+    "category": "空间探测",
+    "shape": "fs_spd",
+    "size": [
+      145,
+      120,
+      110
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -76,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "SINGLE-PHOTON DET.",
+    "note": "小通光窗与电子读出外形；量子效率和暗计数须来自真实器件。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "SINGLE-PHOTON DET.",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_balanced",
+    "name": "空间光平衡探测器",
+    "category": "空间探测",
+    "shape": "fs_balanced",
+    "size": [
+      145,
+      125,
+      150
+    ],
+    "ports": [
+      {
+        "id": "a",
+        "label": "输入 +",
+        "pos": [
+          -76,
+          80,
+          -32
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "b",
+        "label": "输入 −",
+        "pos": [
+          -76,
+          80,
+          32
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "BALANCED DETECTOR",
+    "note": "两个空间入射窗口；差分电输出不作为光学端口。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "BALANCED DETECTOR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_oap",
+    "name": "离轴抛物面反射镜",
+    "category": "空间光学",
+    "shape": "fs_oap",
+    "size": [
+      95,
+      120,
+      95
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "90° 折转",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "OFF-AXIS PARABOLA",
+    "note": "偏轴曲面镜局部几何；端口表示折转，不计算焦点、像差或准直。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "OFF-AXIS PARABOLA",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_thz_emitter",
+    "name": "太赫兹光电导发射头",
+    "category": "空间光源",
+    "shape": "fs_thz_emitter",
+    "size": [
+      120,
+      120,
+      110
+    ],
+    "ports": [
+      {
+        "id": "pump",
+        "label": "光学泵浦",
+        "pos": [
+          -59,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "THz 输出",
+        "pos": [
+          59,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "THz EMITTER",
+    "note": "泵浦入口与 THz 半球透镜；泵浦/THz 是不同波段，不能视为普通激光器直通。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "THz EMITTER",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_thz_detector",
+    "name": "太赫兹光电导探测头",
+    "category": "空间探测",
+    "shape": "fs_thz_detector",
+    "size": [
+      120,
+      120,
+      110
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "THz 入射",
+        "pos": [
+          -59,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "gate",
+        "label": "光学门控",
+        "pos": [
+          0,
+          80,
+          59
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "THz DETECTOR",
+    "note": "THz 接收窗及正交门控入口；同步、频响及检出机制未仿真。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "THz DETECTOR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  },
+  {
+    "id": "fs_dichroic",
+    "name": "二向色分束镜",
+    "category": "空间光学",
+    "shape": "fs_dichroic",
+    "size": [
+      88,
+      116,
+      88
+    ],
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "透射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "ref",
+        "label": "反射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "code": "DICHROIC MIRROR",
+    "note": "透射与反射支路明确；实际截止波长、入射角响应与镀膜需按型号填写。",
+    "source": "本项目参数化三维示意；非厂商 CAD",
+    "color": "#34434b",
+    "aliases": "DICHROIC MIRROR",
+    "representation": "generic_visualization",
+    "sizeBasis": "示意尺寸 / mm"
+  }
+]

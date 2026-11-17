@@ -1,0 +1,372 @@
+{
+  "format": "fiber-workbench",
+  "version": 2,
+  "units": "mm",
+  "title": "推荐构图 · 等轴测",
+  "board": {
+    "width": 1900,
+    "depth": 1050
+  },
+  "items": [
+    {
+      "id": "obj_mwex4kbu_21",
+      "type": "fs_fslaser",
+      "label": "Pulsed laser",
+      "x": -640,
+      "y": 0,
+      "z": -200,
+      "rotation": 0,
+      "scale": 1,
+      "color": "#304959",
+      "note": "通用封闭脉冲激光外形；不假定脉宽、重复频率或峰值功率。",
+      "locked": false,
+      "hidden": false,
+      "showLabel": true
+    },
+    {
+      "id": "obj_mwex4kbu_22",
+      "type": "fs_hwp",
+      "label": "HWP",
+      "x": -300,
+      "y": 0,
+      "z": -200,
+      "rotation": 0,
+      "scale": 1,
+      "color": "#1f2a32",
+      "note": "刻度旋转架与波片；λ/2仅标识功能，不代入未确认的延迟量。",
+      "locked": false,
+      "hidden": false,
+      "showLabel": true
+    },
+    {
+      "id": "obj_mwex4kbu_23",
+      "type": "fs_pbs",
+      "label": "PBS",
+      "x": -80,
+      "y": 0,
+      "z": -200,
+      "rotation": 0,
+      "scale": 1,
+      "color": "#1f2a32",
+      "note": "透射与反射分支分别沿 +X / +Z；偏振轴与消光比未标定。",
+      "locked": false,
+      "hidden": false,
+      "showLabel": true
+    },
+    {
+      "id": "obj_mwex4kbu_24",
+      "type": "fs_lens_convex",
+      "label": "Lens",
+      "x": 240,
+      "y": 0,
+      "z": -200,
+      "rotation": 0,
+      "scale": 1,
+      "color": "#1f2a32",
+      "note": "双凸曲面几何示意；无预设焦距、材料折射率或色差计算。",
+      "locked": false,
+      "hidden": false,
+      "showLabel": true
+    },
+    {
+      "id": "obj_mwex4kbu_25",
+      "type": "fs_cmos",
+      "label": "CMOS 1",
+      "x": 570,
+      "y": 0,
+      "z": -200,
+      "rotation": 0,
+      "scale": 1,
+      "color": "#304959",
+      "note": "像面探测器与镜头接口；无假造图像、分辨率或噪声参数。",
+      "locked": false,
+      "hidden": false,
+      "showLabel": true
+    },
+    {
+      "id": "obj_mwex4kbu_26",
+      "type": "fs_qwp",
+      "label": "QWP",
+      "x": -80,
+      "y": 0,
+      "z": 40,
+      "rotation": -90,
+      "scale": 1,
+      "color": "#1f2a32",
+      "note": "刻度旋转架与波片；λ/4仅标识功能，设计波长和快轴须校准。",
+      "locked": false,
+      "hidden": false,
+      "showLabel": true
+    },
+    {
+      "id": "obj_mwex4kbu_27",
+      "type": "fs_ccd",
+      "label": "CCD",
+      "x": -80,
+      "y": 0,
+      "z": 310,
+      "rotation": -90,
+      "scale": 1,
+      "color": "#304959",
+      "note": "散热制冷相机外形；不生成读出图像或暗噪声数据。",
+      "locked": false,
+      "hidden": false,
+      "showLabel": true
+    }
+  ],
+  "connections": [
+    {
+      "id": "beam_mwex4kbu_28",
+      "kind": "beam",
+      "a": {
+        "item": "obj_mwex4kbu_21",
+        "port": "out"
+      },
+      "b": {
+        "item": "obj_mwex4kbu_22",
+        "port": "in"
+      },
+      "color": "#9d61d5",
+      "radius": 1.8,
+      "glow": 0.65
+    },
+    {
+      "id": "beam_mwex4kbu_29",
+      "kind": "beam",
+      "a": {
+        "item": "obj_mwex4kbu_22",
+        "port": "out"
+      },
+      "b": {
+        "item": "obj_mwex4kbu_23",
+        "port": "in"
+      },
+      "color": "#9d61d5",
+      "radius": 1.8,
+      "glow": 0.65
+    },
+    {
+      "id": "beam_mwex4kbu_30",
+      "kind": "beam",
+      "a": {
+        "item": "obj_mwex4kbu_23",
+        "port": "out"
+      },
+      "b": {
+        "item": "obj_mwex4kbu_24",
+        "port": "in"
+      },
+      "color": "#9d61d5",
+      "radius": 1.8,
+      "glow": 0.65
+    },
+    {
+      "id": "beam_mwex4kbu_31",
+      "kind": "beam",
+      "a": {
+        "item": "obj_mwex4kbu_24",
+        "port": "out"
+      },
+      "b": {
+        "item": "obj_mwex4kbu_25",
+        "port": "in"
+      },
+      "color": "#9d61d5",
+      "radius": 1.8,
+      "glow": 0.65
+    },
+    {
+      "id": "beam_mwex4kbu_32",
+      "kind": "beam",
+      "a": {
+        "item": "obj_mwex4kbu_23",
+        "port": "ref"
+      },
+      "b": {
+        "item": "obj_mwex4kbu_26",
+        "port": "in"
+      },
+      "color": "#2baf7a",
+      "radius": 1.8,
+      "glow": 0.65
+    },
+    {
+      "id": "beam_mwex4kbu_33",
+      "kind": "beam",
+      "a": {
+        "item": "obj_mwex4kbu_26",
+        "port": "out"
+      },
+      "b": {
+        "item": "obj_mwex4kbu_27",
+        "port": "in"
+      },
+      "color": "#2baf7a",
+      "radius": 1.8,
+      "glow": 0.65
+    }
+  ],
+  "custom": [],
+  "camera": {
+    "position": [
+      1693.8019991,
+      1732.0519686,
+      1694.051981
+    ],
+    "target": [
+      0.0,
+      38.2499993,
+      0.2500117
+    ],
+    "aspect": 1.64,
+    "fov": 38,
+    "zoom": 1,
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "near": 2,
+    "far": 18000
+  },
+  "assets": {},
+  "presentation": {
+    "stage": "bench",
+    "showTable": true,
+    "appearance": {
+      "background": "#e5e8eb",
+      "floor": "#d6dadc",
+      "table": "#bac4cb"
+    },
+    "quality": {
+      "preset": "studio",
+      "glassClarity": 0.92,
+      "metalRoughness": 0.3,
+      "beamSoftness": 0.5,
+      "exposure": 0.95
+    },
+    "view": "editor"
+  },
+  "views": [
+    {
+      "id": "composition_front",
+      "name": "正面斜俯视 30° / 32°",
+      "position": [
+        1073.7146139,
+        1380.1127672,
+        1859.9783182
+      ],
+      "target": [
+        0.0,
+        38.2499993,
+        0.2500117
+      ],
+      "aspect": 1.64,
+      "fov": 38,
+      "zoom": 1,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "near": 2,
+      "far": 18000
+    },
+    {
+      "id": "composition_iso",
+      "name": "等轴测 45° / 35.3°",
+      "position": [
+        1693.8019991,
+        1732.0519686,
+        1694.051981
+      ],
+      "target": [
+        0.0,
+        38.2499993,
+        0.2500117
+      ],
+      "aspect": 1.64,
+      "fov": 38,
+      "zoom": 1,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "near": 2,
+      "far": 18000
+    },
+    {
+      "id": "composition_reverse",
+      "name": "反向斜俯视 150° / 32°",
+      "position": [
+        1074.1811991,
+        1380.6958199,
+        -1860.2864742
+      ],
+      "target": [
+        0.0,
+        38.2499993,
+        0.2500117
+      ],
+      "aspect": 1.64,
+      "fov": 38,
+      "zoom": 1,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "near": 2,
+      "far": 18000
+    },
+    {
+      "id": "composition_top",
+      "name": "俯视检查 45° / 89.9°",
+      "position": [
+        4.0688417,
+        3335.1666927,
+        4.3188534
+      ],
+      "target": [
+        0.0,
+        38.2499993,
+        0.2500117
+      ],
+      "aspect": 1.64,
+      "fov": 38,
+      "zoom": 1,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "near": 2,
+      "far": 18000
+    },
+    {
+      "id": "composition_side",
+      "name": "低侧视检查 45° / 8°",
+      "position": [
+        1628.3203363,
+        361.8864119,
+        1628.5703182
+      ],
+      "target": [
+        0.0,
+        38.2499993,
+        0.2500117
+      ],
+      "aspect": 1.64,
+      "fov": 38,
+      "zoom": 1,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "near": 2,
+      "far": 18000
+    }
+  ]
+}

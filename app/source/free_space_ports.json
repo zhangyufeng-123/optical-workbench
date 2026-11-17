@@ -1,0 +1,1648 @@
+[
+  {
+    "id": "fs_cwlaser",
+    "name": "连续波空间光激光头",
+    "category": "空间光源",
+    "ports": [
+      {
+        "id": "out",
+        "label": "激光输出",
+        "pos": [
+          116,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "通用连续波激光头；波长、功率及激光等级未预设。"
+  },
+  {
+    "id": "fs_fslaser",
+    "name": "飞秒激光系统",
+    "category": "空间光源",
+    "ports": [
+      {
+        "id": "out",
+        "label": "脉冲光输出",
+        "pos": [
+          158,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "通用封闭脉冲激光外形；不假定脉宽、重复频率或峰值功率。"
+  },
+  {
+    "id": "fs_diode",
+    "name": "半导体空间激光模块",
+    "category": "空间光源",
+    "ports": [
+      {
+        "id": "out",
+        "label": "自由空间输出",
+        "pos": [
+          66,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "散热激光二极管模块示意；驱动、TEC及波长须按实物填写。"
+  },
+  {
+    "id": "fs_collimator",
+    "name": "空间光准直透镜筒",
+    "category": "空间光源",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -59,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          59,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "两侧自由空间光学接口；准直状态由实际焦距与入射光确定。"
+  },
+  {
+    "id": "fs_fiber_collimator",
+    "name": "光纤准直器 / 混合接口",
+    "category": "空间光源",
+    "ports": [
+      {
+        "id": "in",
+        "label": "光纤输入",
+        "pos": [
+          -63,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "FC/PC",
+        "kind": "optical"
+      },
+      {
+        "id": "out",
+        "label": "准直空间输出",
+        "pos": [
+          59,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "左端 FC/PC 光纤，右端自由空间；双向耦合时需校准焦点和模式匹配。"
+  },
+  {
+    "id": "fs_mirror",
+    "name": "平面反射镜",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "原路返回",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "面向 −X 的法向入射反射镜；输入与返回光路共线。"
+  },
+  {
+    "id": "fs_turnmirror",
+    "name": "45° 转向反射镜",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "90° 折转",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "镜面法向 (1,0,−1)/√2；沿 +X 入射后沿 +Z 传播，输入/输出共点。"
+  },
+  {
+    "id": "fs_lens_convex",
+    "name": "双凸透镜与镜架",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -8,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          8,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "双凸曲面几何示意；无预设焦距、材料折射率或色差计算。"
+  },
+  {
+    "id": "fs_lens_concave",
+    "name": "双凹透镜与镜架",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -8,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          8,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "双凹曲面几何示意；发散能力未进行光线追迹。"
+  },
+  {
+    "id": "fs_achromat",
+    "name": "消色差双胶合透镜",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -9,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          9,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "用两片不同色调的曲面玻璃表达胶合双透镜；不虚构材料牌号。"
+  },
+  {
+    "id": "fs_cyl_lens",
+    "name": "柱面透镜",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -8,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          8,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "一维柱面曲率与矩形通光口；未计算线焦斑。"
+  },
+  {
+    "id": "fs_objective",
+    "name": "显微物镜",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -56,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          56,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "多级物镜筒与前端透镜；倍率、NA、工作距离须另填。"
+  },
+  {
+    "id": "fs_pbs",
+    "name": "空间偏振分光棱镜 PBS",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          -18,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "透射",
+        "pos": [
+          18,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "ref",
+        "label": "反射",
+        "pos": [
+          0,
+          80,
+          18
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "透射与反射分支分别沿 +X / +Z；偏振轴与消光比未标定。"
+  },
+  {
+    "id": "fs_bs_cube",
+    "name": "非偏振立方分束器",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          -18,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "透射",
+        "pos": [
+          18,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "ref",
+        "label": "反射",
+        "pos": [
+          0,
+          80,
+          18
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "立方体内部斜膜；不默认 50:50 分光比或全波段无偏振依赖。"
+  },
+  {
+    "id": "fs_bs_plate",
+    "name": "薄片分束器",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "透射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "ref",
+        "label": "反射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "倾斜薄片，直通 +X 与反射 +Z 在光轴中心分支；不模拟鬼像。"
+  },
+  {
+    "id": "fs_qwp",
+    "name": "空间四分之一波片",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -5,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          5,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "刻度旋转架与波片；λ/4仅标识功能，设计波长和快轴须校准。"
+  },
+  {
+    "id": "fs_hwp",
+    "name": "空间二分之一波片",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -5,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          5,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "刻度旋转架与波片；λ/2仅标识功能，不代入未确认的延迟量。"
+  },
+  {
+    "id": "fs_polarizer",
+    "name": "空间线偏振片",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -5,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          5,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "旋转偏振片与透射轴标记；不预设消光比或损伤阈值。"
+  },
+  {
+    "id": "fs_iris",
+    "name": "可调光阑",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -5,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          5,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "叶片式可调光阑外观；孔径仅为建模示意。"
+  },
+  {
+    "id": "fs_pinhole",
+    "name": "针孔空间滤波器",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -4,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          4,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "薄孔板与 XY 调节架；孔径与衍射响应未标定。"
+  },
+  {
+    "id": "fs_nd",
+    "name": "中性密度滤光片",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -4,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          4,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "灰色吸收片；未假定 OD 或透过率。"
+  },
+  {
+    "id": "fs_filterwheel",
+    "name": "六位滤光片轮",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -7,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          7,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "六个滤片位示意；当前通光位在 y=80 mm，滤片参数待填写。"
+  },
+  {
+    "id": "fs_grating",
+    "name": "反射式衍射光栅",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "90° 折转",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "细纹仅表达刻槽方向；出射方向是布局示意，不由光栅方程求解。"
+  },
+  {
+    "id": "fs_prism",
+    "name": "直角转向棱镜",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          -18,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "折转",
+        "pos": [
+          0,
+          80,
+          18
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "直角棱镜内斜面把 +X 方向转向 +Z；未判断具体材料/波段的全反射条件。"
+  },
+  {
+    "id": "fs_aom",
+    "name": "空间声光调制器 AOM",
+    "category": "空间调制",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -56,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          56,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "diffracted",
+        "label": "衍射支路",
+        "pos": [
+          56,
+          80,
+          4
+        ],
+        "dir": [
+          0.998027,
+          0,
+          0.062791
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "主通道与小角度衍射端口为示意；偏转角不是声频或波长计算结果。"
+  },
+  {
+    "id": "fs_eom",
+    "name": "空间电光晶体调制器",
+    "category": "空间调制",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -56,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          56,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "晶体与电极外形；不预设 Vπ、频率带宽或调制深度。"
+  },
+  {
+    "id": "fs_slm",
+    "name": "反射式空间光调制器 SLM",
+    "category": "空间调制",
+    "ports": [
+      {
+        "id": "in",
+        "label": "斜入射",
+        "pos": [
+          -30,
+          80,
+          0
+        ],
+        "dir": [
+          -0.965926,
+          0,
+          -0.258819
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "反射调制",
+        "pos": [
+          -30,
+          80,
+          0
+        ],
+        "dir": [
+          -0.965926,
+          0,
+          0.258819
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "反射显示面与控制接口；不加载相位图或计算衍射场。"
+  },
+  {
+    "id": "fs_dmd",
+    "name": "数字微镜调制器 DMD",
+    "category": "空间调制",
+    "ports": [
+      {
+        "id": "in",
+        "label": "斜入射",
+        "pos": [
+          -35,
+          80,
+          0
+        ],
+        "dir": [
+          -0.939693,
+          0,
+          -0.34202
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "选通反射",
+        "pos": [
+          -35,
+          80,
+          0
+        ],
+        "dir": [
+          -0.939693,
+          0,
+          0.34202
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "倾斜微镜阵列用网格纹理标示；端口方向为布局，不替代厂商 ON/OFF 光路。"
+  },
+  {
+    "id": "fs_expander",
+    "name": "可调激光扩束镜",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -91,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          91,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "多级伸缩镜筒与双口径玻璃；倍率与准直未计算。"
+  },
+  {
+    "id": "fs_delayline",
+    "name": "回返式空间光延迟台",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          -100,
+          80,
+          -25
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "平行返回",
+        "pos": [
+          -100,
+          80,
+          25
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "导轨和回返反射组件；进出光反向平行，实际光程随位移改变但本工具不计算时延。"
+  },
+  {
+    "id": "fs_dump",
+    "name": "空间光束吸收器",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "光束终端",
+        "pos": [
+          -43,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "开口黑腔与散热鳍；不是已认证的功率或安全等级选型。"
+  },
+  {
+    "id": "fs_shutter",
+    "name": "电动光束快门",
+    "category": "空间调制",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -7,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "空间光输出",
+        "pos": [
+          7,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "机械挡片示意为打开状态；开闭时序和联锁未实现。"
+  },
+  {
+    "id": "fs_cmos",
+    "name": "CMOS 面阵相机",
+    "category": "空间探测",
+    "ports": [
+      {
+        "id": "in",
+        "label": "成像入射",
+        "pos": [
+          -59,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "像面探测器与镜头接口；无假造图像、分辨率或噪声参数。"
+  },
+  {
+    "id": "fs_ccd",
+    "name": "制冷 CCD 相机",
+    "category": "空间探测",
+    "ports": [
+      {
+        "id": "in",
+        "label": "成像入射",
+        "pos": [
+          -77,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "散热制冷相机外形；不生成读出图像或暗噪声数据。"
+  },
+  {
+    "id": "fs_spd",
+    "name": "空间光单光子探测器",
+    "category": "空间探测",
+    "ports": [
+      {
+        "id": "in",
+        "label": "空间光输入",
+        "pos": [
+          -76,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "小通光窗与电子读出外形；量子效率和暗计数须来自真实器件。"
+  },
+  {
+    "id": "fs_balanced",
+    "name": "空间光平衡探测器",
+    "category": "空间探测",
+    "ports": [
+      {
+        "id": "a",
+        "label": "输入 +",
+        "pos": [
+          -76,
+          80,
+          -32
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "b",
+        "label": "输入 −",
+        "pos": [
+          -76,
+          80,
+          32
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "两个空间入射窗口；差分电输出不作为光学端口。"
+  },
+  {
+    "id": "fs_oap",
+    "name": "离轴抛物面反射镜",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "90° 折转",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "偏轴曲面镜局部几何；端口表示折转，不计算焦点、像差或准直。"
+  },
+  {
+    "id": "fs_thz_emitter",
+    "name": "太赫兹光电导发射头",
+    "category": "空间光源",
+    "ports": [
+      {
+        "id": "pump",
+        "label": "光学泵浦",
+        "pos": [
+          -59,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "THz 输出",
+        "pos": [
+          59,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "泵浦入口与 THz 半球透镜；泵浦/THz 是不同波段，不能视为普通激光器直通。"
+  },
+  {
+    "id": "fs_thz_detector",
+    "name": "太赫兹光电导探测头",
+    "category": "空间探测",
+    "ports": [
+      {
+        "id": "in",
+        "label": "THz 入射",
+        "pos": [
+          -59,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "gate",
+        "label": "光学门控",
+        "pos": [
+          0,
+          80,
+          59
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "THz 接收窗及正交门控入口；同步、频响及检出机制未仿真。"
+  },
+  {
+    "id": "fs_dichroic",
+    "name": "二向色分束镜",
+    "category": "空间光学",
+    "ports": [
+      {
+        "id": "in",
+        "label": "入射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "role": "in",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "out",
+        "label": "透射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      },
+      {
+        "id": "ref",
+        "label": "反射",
+        "pos": [
+          0,
+          80,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "role": "out",
+        "connector": "Free space",
+        "kind": "free-space"
+      }
+    ],
+    "note": "透射与反射支路明确；实际截止波长、入射角响应与镀膜需按型号填写。"
+  }
+]

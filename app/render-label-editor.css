@@ -1,0 +1,25 @@
+.render-preview:has(>.render-editable-preview:not([hidden])){padding:0;overflow:hidden;align-items:stretch;justify-content:stretch}
+.render-editable-preview{display:flex;flex:1;min-width:0;min-height:0;width:100%;height:100%}
+.render-label-editor{display:flex;flex-direction:column;flex:1;min-width:0;min-height:0;width:100%;height:100%;color:#243746;font:13px 'Segoe UI','Microsoft YaHei',sans-serif}
+.render-label-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-shrink:0;padding:9px 14px;background:#f7fafc;border-bottom:1px solid #d4e0e6}
+.render-label-toolbar>span{font-size:12px;color:#5a7380}.render-label-toolbar>div{display:flex;gap:6px}.render-label-toolbar button{padding:5px 9px!important;font-size:12px!important}
+.render-label-workspace{display:grid;grid-template-columns:minmax(0,1fr) 238px;flex:1;min-height:0;min-width:0;overflow:hidden}
+.render-label-scroll{overflow:auto;min-width:0;min-height:0;padding:22px;display:flex;align-items:flex-start;justify-content:center;background:#e8eef1;background-image:linear-gradient(45deg,#e1e8ec 25%,transparent 25%),linear-gradient(-45deg,#e1e8ec 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#e1e8ec 75%),linear-gradient(-45deg,transparent 75%,#e1e8ec 75%);background-size:20px 20px;background-position:0 0,0 10px,10px -10px,-10px 0}
+.render-label-sheet{line-height:0;width:100%;min-width:220px;margin:auto;position:relative;outline:none;box-shadow:0 3px 18px #27434d19;user-select:none;touch-action:none}
+.render-label-sheet>svg{display:block;width:100%;height:auto;overflow:hidden;touch-action:none}
+.render-label-sheet text[data-j-ann]{cursor:move;pointer-events:bounding-box;user-select:none}
+.render-label-hit{fill:transparent;stroke:none;pointer-events:all;cursor:move}
+.render-label-sheet:focus-visible{outline:2px solid #84b0c7;outline-offset:4px}
+.render-label-outline{fill:none;stroke:#287fa7;stroke-width:1;stroke-dasharray:4 3;vector-effect:non-scaling-stroke}
+.render-label-inspector{padding:14px;background:#fff;border-left:1px solid #d4e0e6;overflow:auto;min-width:0;line-height:1.5}
+.render-label-inspector h3{margin:0 0 12px;font-size:14px}.render-label-inspector label{display:block;font-size:12px;color:#536b7b;margin:10px 0}
+.render-label-inspector input,.render-label-inspector select,.render-label-inspector textarea{display:block;width:100%;min-width:0;margin-top:5px;padding:7px;border:1px solid #bfced8;border-radius:4px;background:#fff;color:#243746;font:13px 'Segoe UI','Microsoft YaHei',sans-serif}
+.render-label-inspector textarea{min-height:72px;resize:vertical;line-height:1.5}.render-label-inspector input[type=color]{height:34px;padding:3px}
+.render-label-inspector input:focus-visible,.render-label-inspector select:focus-visible,.render-label-inspector textarea:focus-visible{outline:2px solid #87b5c9;outline-offset:1px}
+.render-label-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px}.render-label-inspector .render-label-checkbox{display:flex;align-items:center;gap:7px}.render-label-checkbox input{display:inline;width:auto;margin:0;accent-color:#286c8b}
+.render-label-inspector button{width:100%;margin-top:8px;padding:7px 8px!important;font-size:12px!important}
+.render-label-inspector [data-label-empty],.render-label-status,.render-label-font-status{color:#617886;font-size:12px;line-height:1.7;margin:12px 0 0}
+.render-label-font-status:empty{display:none}
+.render-label-editor [hidden]{display:none!important}
+@media(max-width:1050px){.render-label-workspace{grid-template-columns:minmax(0,1fr) 210px}.render-label-inspector{padding:12px}.render-label-scroll{padding:14px}}
+@media(max-width:720px){.render-label-workspace{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(170px,1fr) minmax(150px,40%)}.render-label-inspector{border-left:0;border-top:1px solid #d4e0e6}.render-label-inspector [data-label-fields]{display:grid;grid-template-columns:1fr 1fr;column-gap:12px}.render-label-inspector [data-label-fields]>label:first-child{grid-column:1/-1}.render-label-toolbar{padding:7px 10px;gap:8px}.render-label-toolbar>span{font-size:11px}.render-label-toolbar button{padding:5px 7px!important}.render-label-scroll{padding:10px}}

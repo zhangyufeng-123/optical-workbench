@@ -1,0 +1,28 @@
+.typography-dialog{padding:0;width:min(650px,94vw);max-height:90vh;overflow:auto;font:13px/1.5 'Microsoft YaHei UI','Segoe UI','Microsoft YaHei',sans-serif;color:#243746;border:1px solid #bcced9;border-radius:8px;background:#fff}
+.typography-dialog::backdrop{background:#172e3e66}
+.typography-dialog *{box-sizing:border-box}
+.typography-dialog .typography-head{height:auto;min-height:72px;display:flex;align-items:center;justify-content:space-between;padding:16px 20px;gap:15px;border-bottom:1px solid #d8e3e9}
+.typography-dialog .typography-head h2{font-size:17px;line-height:1.5;margin:0;font-weight:600}
+.typography-dialog .typography-head p{font-size:12px;color:#687e8c;margin:4px 0 0}
+.typography-dialog button,.typography-dialog input,.typography-dialog select{font-family:inherit;font-size:13px;color:inherit}
+.typography-dialog button{line-height:1.45;margin:0;border:1px solid #c4d2dc;border-radius:4px;background:#fff;padding:7px 11px;cursor:pointer}
+.typography-dialog button:disabled,.typography-dialog input:disabled,.typography-dialog select:disabled{opacity:.55;cursor:default}
+.typography-dialog .typography-body{padding:18px 20px}
+.typography-dialog .typography-fields{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:15px 18px}
+.typography-dialog .typography-fields label{display:block;min-width:0}
+.typography-dialog .typography-fields input,.typography-dialog .typography-fields select{display:block;width:100%;margin-top:6px;padding:8px;border:1px solid #c4d2dc;border-radius:4px;background:#fff}
+.typography-dialog .typography-flags{display:flex;gap:24px;flex-wrap:wrap;margin-top:18px}
+.typography-dialog .typography-flags label{display:flex;align-items:center;gap:6px}
+.typography-dialog .typography-flags input{accent-color:#246c88;width:15px;height:15px;margin:0}
+.typography-dialog .typography-preview{margin-top:18px;padding:16px 18px;background:#f5f8fa;border:1px solid #dae3e9;border-radius:4px;overflow-wrap:anywhere}
+.typography-dialog .typography-preview-title{margin:0 0 12px;font-size:12px;color:#5e7180}
+.typography-dialog [data-typography=sample]{line-height:1.8;color:#243746;min-height:51px}
+.typography-dialog [data-typography=paperSample]{margin:13px 0 0;padding-top:12px;border-top:1px solid #dae3e9;line-height:1.6;color:#243746}
+.typography-dialog .typography-note{margin:12px 0 0;font-size:12px;line-height:1.6;color:#627987}
+.typography-dialog .typography-footer{padding:13px 20px;border-top:1px solid #d8e3e9;background:#f7f9fb;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.typography-dialog .typography-footer p{font-size:12px;line-height:1.6;margin:0;color:#4c697b}
+.typography-dialog .typography-footer>div{display:flex;gap:7px;flex-shrink:0}
+.typography-dialog button.primary{background:#246c88;border-color:#246c88;color:#fff}
+.typography-dialog button:focus-visible,.typography-dialog input:focus-visible,.typography-dialog select:focus-visible{outline:2px solid #246c88;outline-offset:3px}
+@media(max-width:560px){.typography-dialog .typography-head{padding:13px 15px}.typography-dialog .typography-body{padding:14px 15px}.typography-dialog .typography-fields{gap:13px}.typography-dialog .typography-footer{padding:12px 15px;align-items:flex-start;flex-direction:column}.typography-dialog .typography-footer>div{align-self:flex-end}}
+@media(max-width:380px){.typography-dialog .typography-fields{grid-template-columns:1fr}.typography-dialog .typography-head p{max-width:20ch}.typography-dialog .typography-footer>div{flex-wrap:wrap;justify-content:flex-end}}

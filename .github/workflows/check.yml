@@ -1,0 +1,42 @@
+name: Build and logic checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  windows-checks:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Run logic regression checks
+        run: npm test
+      - name: Build offline web application
+        run: npm run build
+      - name: Stage desktop runtime
+        run: npm run stage
+      - name: Upload check reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logic-check-reports
+          path: app/qa/*.json
+          if-no-files-found: warn
+          retention-days: 14

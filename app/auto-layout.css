@@ -1,0 +1,22 @@
+.auto-layout-dialog { width:min(700px,calc(100vw - 32px)); max-height:calc(100dvh - 48px); padding:24px; overflow:auto; border:1px solid #cedce5; border-radius:10px; color:#243746; background:#fff; box-shadow:0 18px 70px #24374633; }
+.auto-layout-dialog::backdrop { background:#172a3c66; }
+.auto-layout-dialog header { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-bottom:20px; }
+.auto-layout-dialog h2 { margin:0; font-size:20px; }
+.connection-logic-label { display:block; margin-bottom:8px; font-weight:600; }
+.auto-layout-dialog textarea { box-sizing:border-box; display:block; width:100%; min-height:180px; resize:vertical; padding:12px; border:1px solid #b6cbd8; border-radius:6px; font:14px/1.8 'Microsoft YaHei','Segoe UI',sans-serif; color:inherit; }
+.auto-layout-dialog textarea:focus { outline:2px solid #87b5c9; outline-offset:2px; }
+.auto-layout-hint { margin:10px 0; color:#617381; font-size:13px; line-height:1.7; }
+.auto-layout-examples,.auto-layout-actions { display:flex; flex-wrap:wrap; gap:8px; }
+.auto-layout-dialog details { margin-top:14px; border-top:1px solid #e1e8ed; padding-top:12px; font-size:13px; }
+.auto-layout-dialog summary { cursor:pointer; color:#246c88; }
+.auto-layout-dialog details p { line-height:1.7; }
+.auto-layout-dialog pre { white-space:pre-wrap; padding:12px; border-radius:6px; background:#f3f6f8; font-size:13px; line-height:1.7; }
+.auto-layout-inventory { max-height:200px; overflow:auto; margin-top:10px; }
+.auto-layout-inventory>div { display:grid; gap:4px; padding:8px 0; border-bottom:1px solid #e6edf1; }
+.auto-layout-inventory span,.auto-layout-inventory code { overflow-wrap:anywhere; color:#617381; font-size:12px; }
+.auto-layout-option { display:flex; gap:8px; align-items:center; margin:20px 0 14px; font-size:13px; }
+.auto-layout-option input { width:auto; }
+.auto-layout-actions { justify-content:flex-end; }
+.auto-layout-status { margin:14px 0 0; font-size:13px; line-height:1.7; overflow-wrap:anywhere; }
+.auto-layout-status:empty { display:none; }
+@media(max-width:600px) { .auto-layout-dialog { padding:18px; } .auto-layout-dialog header { align-items:flex-start; } .auto-layout-dialog h2 { font-size:18px; } }
